@@ -4,12 +4,16 @@ import cn.itcast.core.dao.log.PayLogDao;
 import cn.itcast.core.dao.order.OrderDao;
 import cn.itcast.core.dao.order.OrderItemDao;
 import cn.itcast.core.pojo.entity.BuyerCart;
+import cn.itcast.core.pojo.entity.PageResult;
 import cn.itcast.core.pojo.log.PayLog;
 import cn.itcast.core.pojo.order.Order;
 import cn.itcast.core.pojo.order.OrderItem;
+import cn.itcast.core.pojo.order.OrderQuery;
 import cn.itcast.core.util.Constants;
 import cn.itcast.core.util.IdWorker;
 import com.alibaba.dubbo.config.annotation.Service;
+import com.github.pagehelper.Page;
+import com.github.pagehelper.PageHelper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.transaction.annotation.Transactional;
@@ -142,5 +146,32 @@ public class OrderServiceImpl implements  OrderService {
 
         //4. 删除redis中这个用户的支付日志对象
         redisTemplate.boundHashOps("payLog").delete(userName);
+    }
+
+    /***
+     * 订单分页查询
+     * @param order
+     * @param page
+     * @param rows
+     * @return
+     */
+    @Override
+    public PageResult findPage(Order order, Integer page, Integer rows) {
+        PageHelper.startPage(page, rows);
+        OrderQuery query = new OrderQuery();
+        OrderQuery.Criteria criteria = query.createCriteria();
+        if (order!=null){
+            if (order.getOrderId()!=null || !"".equals(order.getOrderId())){
+                criteria.andOrderIdEqualTo(order.getOrderId());
+            }
+            if (order.getStatus()!=null || !"".equals(order.getStatus())){
+                criteria.andStatusEqualTo(order.getStatus());
+            }
+            if (order.getUserId() !=null || !"".equals(order.getUserId())){
+                criteria.andUserIdLike("%"+order.getUserId()+"%");
+            }
+        }
+        Page<Order> orders =(Page<Order>)orderDao.selectByExample(query);
+        return new PageResult(orders.getTotal(),orders.getResult());
     }
 }
