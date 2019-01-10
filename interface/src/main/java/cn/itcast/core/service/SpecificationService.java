@@ -1,8 +1,10 @@
 package cn.itcast.core.service;
 
 import cn.itcast.core.pojo.entity.PageResult;
+import cn.itcast.core.pojo.entity.ResultMessage;
 import cn.itcast.core.pojo.entity.SpecEntity;
 import cn.itcast.core.pojo.specification.Specification;
+import org.springframework.web.bind.annotation.RequestBody;
 
 import java.util.List;
 import java.util.Map;
@@ -10,6 +12,7 @@ import java.util.Map;
 public interface SpecificationService {
 
     public PageResult findPage(Specification spec, Integer page, Integer rows);
+
 
     public void add(SpecEntity specEntity);
 
@@ -21,5 +24,4 @@ public interface SpecificationService {
 
     public List<Map> selectOptionList();
 
-    public void updateStatus(Long ids,Integer status);
 }

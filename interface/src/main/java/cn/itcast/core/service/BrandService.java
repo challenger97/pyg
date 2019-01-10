@@ -10,7 +10,9 @@ public interface BrandService {
 
     public List<Brand> findAll();
 
-    public PageResult findPage(Brand brand, Integer page, Integer rows);
+   // public PageResult findPage(Integer page, Integer rows);
+
+    public PageResult findPage(Brand brand, int page,int rows);
 
     public void add(Brand brand);
 
@@ -22,5 +24,4 @@ public interface BrandService {
 
     public List<Map> selectOptionList();
 
-    public void updateStatus(Long ids,Integer brandStatus);
 }

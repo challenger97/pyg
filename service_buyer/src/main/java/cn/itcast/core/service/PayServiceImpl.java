@@ -8,6 +8,7 @@ import org.springframework.beans.factory.annotation.Value;
 import java.util.HashMap;
 import java.util.Map;
 
+/*
 @Service
 public class PayServiceImpl implements PayService {
     //微信公众账号或开放平台APP的唯一标识
@@ -89,3 +90,4 @@ public class PayServiceImpl implements PayService {
 
     }
 }
+*/
