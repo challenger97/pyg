@@ -23,6 +23,22 @@ public class SpecController {
     @Reference
     private SpecificationService specService;
 
+    @RequestMapping("/updateStatus")
+    public Result updateStatus(Long[] ids,Integer status){
+        try {
+            if (ids!=null){
+                for (Long id : ids) {
+                    specService.updateStatus(id,status);
+                }
+            }
+            return new Result(true,"审核成功");
+        } catch (Exception e) {
+            e.printStackTrace();
+            return new Result(false,"审核失败");
+        }
+    }
+
+
     /**
      * 规格高级分页查询
      * @param spec
