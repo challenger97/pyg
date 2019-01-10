@@ -19,6 +19,18 @@ public class BrandServiceImpl implements BrandService {
     private BrandDao brandDao;
 
     @Override
+    public void updateStatus(Long ids, Integer brandStatus) {
+//        创建品牌对象,通过id修改状态
+        Brand brand = new Brand();
+        brand.setBrandStatus(brandStatus);
+        BrandQuery query = new BrandQuery();
+        BrandQuery.Criteria criteria = query.createCriteria();
+        criteria.andIdEqualTo(ids);
+        brandDao.updateByExampleSelective(brand,query);
+    }
+
+
+    @Override
     public List<Brand> findAll() {
 
         List<Brand> brands = brandDao.selectByExample(null);

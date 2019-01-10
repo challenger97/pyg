@@ -1,9 +1,12 @@
 package cn.itcast.core.dao.item;
 
+
 import cn.itcast.core.pojo.item.Item;
 import cn.itcast.core.pojo.item.ItemQuery;
-import java.util.List;
 import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
+
 
 public interface ItemDao {
     int countByExample(ItemQuery example);

@@ -86,5 +86,17 @@ app.controller('specificationController' ,function($scope,$controller   ,specifi
 	$scope.deleteTableRow = function(index){
 		$scope.entity.specificationOptionList.splice(index,1);
 	}
+
+    $scope.updateStatus=function (status) {
+        specificationService.updateStatus($scope.selectIds,status).success(function(response){
+            if(response.success){
+                $scope.reloadList();//刷新列表
+                $scope.selectIds = [];
+                alert(response.message);
+            }else{
+                alert(response.message);
+            }
+        });
+    }
     
 });	
