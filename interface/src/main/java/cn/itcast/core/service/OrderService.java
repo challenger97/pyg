@@ -4,6 +4,7 @@ import cn.itcast.core.pojo.entity.PageResult;
 import cn.itcast.core.pojo.log.PayLog;
 import cn.itcast.core.pojo.order.Order;
 
+import java.util.Date;
 import java.util.List;
 
 public interface OrderService {
@@ -19,4 +20,6 @@ public interface OrderService {
     public PageResult findPage(String username, Integer page , Integer rows);
 
     /*public PageResult search(Order order,Integer page , Integer rows);*/
+
+    public List findIdByTime(Date start, Date end);
 }
