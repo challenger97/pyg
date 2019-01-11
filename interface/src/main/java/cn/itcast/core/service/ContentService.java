@@ -30,5 +30,6 @@ public interface ContentService {
 
     List<FloorContent> findFloorContent();
 
+    public List qaz();
     public List<CateGory01> selectCategoryTree();
 }

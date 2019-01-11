@@ -7,4 +7,13 @@ app.controller('indexController',function($scope,loginService){
 					}
 			);
 	}
+
+
+    $scope.findAll=function(){
+        loginService.findAll().success(
+            function(response){
+                $scope.allList=response.loginName;
+            }
+        );
+    }
 });

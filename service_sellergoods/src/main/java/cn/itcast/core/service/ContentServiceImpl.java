@@ -6,6 +6,7 @@ import cn.itcast.core.dao.item.ItemCatDao;
 import cn.itcast.core.pojo.ad.Content;
 import cn.itcast.core.pojo.ad.ContentQuery;
 import cn.itcast.core.pojo.entity.CateGory01;
+import cn.itcast.core.pojo.entity.CateGory02;
 import cn.itcast.core.pojo.entity.FloorContent;
 import cn.itcast.core.pojo.entity.PageResult;
 import cn.itcast.core.pojo.item.ItemCat;
@@ -135,11 +136,12 @@ public class ContentServiceImpl implements ContentService {
     @Override
     public List<FloorContent> findFloorContent() {
 
-        //先从redis中取,
+        //先从redis中取,key:楼层名,value:广告集合
         Map entries = redisTemplate.boundHashOps(Constants.FLOORCONTENT_lIST_REDIS).entries();
         if (entries!=null){
             List<FloorContent> list=new ArrayList<>();
             for (Object o : entries.keySet()) {
+                //将从redis里面取出的数据封装到floorcontent
                 FloorContent floorContent = new FloorContent();
                 floorContent.setFloorName(String.valueOf(o));
                 floorContent.setContent((List) entries.get(o));
@@ -148,6 +150,7 @@ public class ContentServiceImpl implements ContentService {
             return list;
         }
         else {
+            //如果不能从redis中取出,则先从数据库查询,把结果放入redis中一份,然后直接返回数据
             List<Map> list = contentDao.selectFloorContentName(5L);
             if (list != null) {
                 Map redismap = new HashMap();
@@ -157,40 +160,101 @@ public class ContentServiceImpl implements ContentService {
                     ContentQuery query = new ContentQuery();
                     ContentQuery.Criteria criteria = query.createCriteria();
                     criteria.andTitleEqualTo(String.valueOf(title));
+                    //从数据库查询楼层广告,封装到map中
                     List<Content> contentlist = contentDao.selectByExample(query);
                     redismap.put(title, contentlist);
                     FloorContent floorContent = new FloorContent();
                     floorContent.setFloorName(String.valueOf(title));
                     floorContent.setContent(contentlist);
                     floorContentList.add(floorContent);
-
                 }
-
+                //将楼层广告存入redis
                 redisTemplate.boundHashOps(Constants.FLOORCONTENT_lIST_REDIS).putAll(redismap);
-                return floorContentList;
 
+                //给前端返回结果
+                return floorContentList;
             }
         }
-
         return null;
+    }
 
+    @Override
+    public List qaz() {
+        return null;
     }
 
     public List<CateGory01> selectCategoryTree(){
+        //获取parent_id为0的所有分类集合
+        List returnList=new ArrayList<>();
+        List<ItemCat> category01List = findByParentId(0L);
 
-      
+        //获取parent_id为category01List的分类集合
+        if (category01List!=null) {
+
+            //创建cateGory01中的集合对象,用于存储cateGory02对象
+            List list=new ArrayList<>();
+            for (ItemCat itemCat : category01List) {
+
+                //创建cateGory01对象
+                CateGory01 cateGory01 = new CateGory01();
+
+                //存储category01的名字
+                cateGory01.setCategory01(itemCat.getName());
 
 
-        return null;
+                List<CateGory02> cateGory02List = getCateGory02(itemCat.getId());
+
+
+                cateGory01.setCateGory02list(cateGory02List);
+
+                returnList.add(cateGory01);
+
+
+             /*   //获取parent_id为category02List的分类集合
+                List<ItemCat> category02List = findByParentId(itemCat.getId());
+
+                 if (category02List!=null){
+                     //获取parent_id为category03List的分类集合
+                    for (ItemCat cat : category02List) {
+
+                        //创建cateGory02的对象,封装数据
+                        CateGory02 cateGory02 = new CateGory02();
+                        cateGory02.setCategory02Name(cat.getName());
+                        List<ItemCat> category03List = findByParentId(cat.getId());
+                        cateGory02.setCategory03List(category03List);
+                        list.add(cateGory02);
+                    }
+                }*/
+                //存储在cateGory01中CateGory02的集合对象
+            }
+        }
+        return returnList;
     }
-    
-    public void findByParentId(Long id){
+
+
+    public List<CateGory02> getCateGory02(Long parentid){
+
+        List<ItemCat> cate02 = findByParentId(parentid);
+
+        List list=new  ArrayList<>();
+
+        for (ItemCat itemCat : cate02) {
+            CateGory02 cateGory02 = new CateGory02();
+            cateGory02.setCategory02Name(itemCat.getName());
+
+            List<ItemCat> cate03 = findByParentId(itemCat.getId());
+
+            cateGory02.setCategory03List(cate03);
+            list.add(cateGory02);
+        }
+        return list;
+    }
+    public List<ItemCat> findByParentId(Long id){
 
         ItemCatQuery query = new ItemCatQuery();
         ItemCatQuery.Criteria criteria = query.createCriteria();
         criteria.andParentIdEqualTo(id);
-
         List<ItemCat> itemCats = itemCatDao.selectByExample(query);
-
+        return itemCats;
     }
 }
