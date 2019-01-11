@@ -31,4 +31,8 @@ app.service("brandService",function($http){
 	this.selectOptionList = function(){
 		return $http.get("../brand/selectOptionList.do");
 	}
+
+    this.updateStatus = function(ids,brandStatus){
+        return $http.get('../brand/updateStatus.do?ids='+ids+"&brandStatus="+brandStatus);
+    }
 });

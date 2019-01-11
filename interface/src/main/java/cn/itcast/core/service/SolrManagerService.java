@@ -4,5 +4,7 @@ public interface SolrManagerService {
 
     public void saveItemToSolr(Long id);
 
-    public void deleteItemFromSolr(Long id);
+
+    public void delItemFromSolr(Long id);
+
 }

@@ -34,7 +34,7 @@ public class testDao {
     @Test
     public void getResul(){
 
-        List<Map> list = contentDao.selectFloorContentName(5L);
+        List<Map> list = contentDao.selectFloorContentName(1L);
         Map redismap=new HashMap();
         for (Map map : list) {
             Object title = map.get("title");

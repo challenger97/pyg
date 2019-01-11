@@ -6,9 +6,12 @@ import java.util.List;
 
 public interface ItemCatService {
 
+
     public List<ItemCat> findByParentId(Long parentId);
+
 
     public ItemCat findOne(Long id);
 
     public List<ItemCat> findAll();
+
 }

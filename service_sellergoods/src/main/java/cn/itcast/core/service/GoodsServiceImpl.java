@@ -93,6 +93,13 @@ public class GoodsServiceImpl implements GoodsService {
         insertItem(goodsEntity);
     }
 
+    /***
+     * 分页查询
+     * @param goods
+     * @param page
+     * @param rows
+     * @return
+     */
     @Override
     public PageResult findPage(Goods goods, Integer page, Integer rows) {
         PageHelper.startPage(page, rows);
@@ -115,6 +122,9 @@ public class GoodsServiceImpl implements GoodsService {
         return new PageResult(goodsList.getTotal(), goodsList.getResult());
     }
 
+    /**
+     * 修改前回显
+     * */
     @Override
     public GoodsEntity findOne(Long id) {
         //1. 根据商品id查询商品对象
