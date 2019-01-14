@@ -1,6 +1,9 @@
 package cn.itcast.core.service;
 
 
+import cn.itcast.core.dao.log.PayLogDao;
+import cn.itcast.core.dao.order.OrderDao;
+import cn.itcast.core.dao.order.OrderItemDao;
 import cn.itcast.core.pojo.entity.BuyerCart;
 import cn.itcast.core.pojo.entity.PageResult;
 import cn.itcast.core.pojo.log.PayLog;
@@ -179,6 +182,24 @@ public class OrderServiceImpl implements  OrderService {
         Page<Order> orders =(Page<Order>)orderDao.selectByExample(query);
         return new PageResult(orders.getTotal(),orders.getResult());
     }
+
+
+
+
+    @Override
+    public List findIdByTime(Date start, Date end) {
+        List orderIdList = new ArrayList<>();
+        OrderQuery query = new OrderQuery();
+        OrderQuery.Criteria criteria = query.createCriteria();
+        criteria.andCreateTimeBetween(start, end);
+        List<Order> orders = orderDao.selectByExample(query);
+        for (Order order : orders) {
+            Long orderId = order.getOrderId();
+            orderIdList.add(orderId);
+        }
+        return orderIdList;
+    }
+
 
     /***
      * 条件查询
