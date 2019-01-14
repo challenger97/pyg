@@ -1,15 +1,9 @@
 package cn.itcast.core.service;
 
-import cn.itcast.core.dao.ad.ContentCategoryDao;
 import cn.itcast.core.dao.ad.ContentDao;
-import cn.itcast.core.dao.item.ItemCatDao;
 import cn.itcast.core.pojo.ad.Content;
 import cn.itcast.core.pojo.ad.ContentQuery;
-import cn.itcast.core.pojo.entity.CateGory01;
-import cn.itcast.core.pojo.entity.FloorContent;
 import cn.itcast.core.pojo.entity.PageResult;
-import cn.itcast.core.pojo.item.ItemCat;
-import cn.itcast.core.pojo.item.ItemCatQuery;
 import cn.itcast.core.util.Constants;
 import com.alibaba.dubbo.config.annotation.Service;
 import com.github.pagehelper.Page;
@@ -18,10 +12,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
 
 import javax.naming.Context;
-import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 /**
  * 使用redis分布式缓存原则:
@@ -36,10 +27,6 @@ public class ContentServiceImpl implements ContentService {
 
     @Autowired
     private RedisTemplate redisTemplate;
-
-    @Autowired
-    private ItemCatDao itemCatDao;
-
 
     @Override
     public List<Content> findAll() {
@@ -129,68 +116,7 @@ public class ContentServiceImpl implements ContentService {
             redisTemplate.boundHashOps(Constants.CONTENT_LIST_REDIS).put(categoryId, contentList);
         }
 
+
         return contentList;
-    }
-
-    @Override
-    public List<FloorContent> findFloorContent() {
-
-        //先从redis中取,
-        Map entries = redisTemplate.boundHashOps(Constants.FLOORCONTENT_lIST_REDIS).entries();
-        if (entries!=null){
-            List<FloorContent> list=new ArrayList<>();
-            for (Object o : entries.keySet()) {
-                FloorContent floorContent = new FloorContent();
-                floorContent.setFloorName(String.valueOf(o));
-                floorContent.setContent((List) entries.get(o));
-                list.add(floorContent);
-            }
-            return list;
-        }
-        else {
-            List<Map> list = contentDao.selectFloorContentName(5L);
-            if (list != null) {
-                Map redismap = new HashMap();
-                List<FloorContent> floorContentList=new ArrayList<>();
-                for (Map map : list) {
-                    Object title = map.get("title");
-                    ContentQuery query = new ContentQuery();
-                    ContentQuery.Criteria criteria = query.createCriteria();
-                    criteria.andTitleEqualTo(String.valueOf(title));
-                    List<Content> contentlist = contentDao.selectByExample(query);
-                    redismap.put(title, contentlist);
-                    FloorContent floorContent = new FloorContent();
-                    floorContent.setFloorName(String.valueOf(title));
-                    floorContent.setContent(contentlist);
-                    floorContentList.add(floorContent);
-
-                }
-
-                redisTemplate.boundHashOps(Constants.FLOORCONTENT_lIST_REDIS).putAll(redismap);
-                return floorContentList;
-
-            }
-        }
-
-        return null;
-
-    }
-
-    public List<CateGory01> selectCategoryTree(){
-
-      
-
-
-        return null;
-    }
-    
-    public void findByParentId(Long id){
-
-        ItemCatQuery query = new ItemCatQuery();
-        ItemCatQuery.Criteria criteria = query.createCriteria();
-        criteria.andParentIdEqualTo(id);
-
-        List<ItemCat> itemCats = itemCatDao.selectByExample(query);
-
     }
 }

@@ -28,17 +28,6 @@ public class SpecificationServiceImpl implements SpecificationService {
     private SpecificationOptionDao optionDao;
 
     @Override
-    public void updateStatus(Long ids, Integer status) {
-        Specification specification = new Specification();
-        specification.setStatus(status);
-        SpecificationQuery query = new SpecificationQuery();
-        SpecificationQuery.Criteria criteria = query.createCriteria();
-        criteria.andIdEqualTo(ids);
-        specDao.updateByExampleSelective(specification,query);
-        System.out.println(status);
-    }
-
-    @Override
     public PageResult findPage(Specification spec, Integer page, Integer rows) {
         PageHelper.startPage(page, rows);
         SpecificationQuery query = new SpecificationQuery();

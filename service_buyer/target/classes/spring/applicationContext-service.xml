@@ -14,11 +14,20 @@
     <dubbo:registry address="zookeeper://192.168.200.128:2181"/>
     <dubbo:annotation package="cn.itcast.core.service" />
    
+<<<<<<< HEAD
  <!--  <bean id="idWorker" class="cn.itcast.core.util.IdWorker">
 	   &lt;!&ndash;设置机器号, 不重复就可以&ndash;&gt;
     	<constructor-arg index="0" value="1"></constructor-arg>
 	   &lt;!&ndash;生成12为随机数的种子&ndash;&gt;
     	<constructor-arg index="1" value="0"></constructor-arg>
     </bean>-->
+=======
+   <bean id="idWorker" class="cn.itcast.core.util.IdWorker">
+	   <!--设置机器号, 不重复就可以-->
+    	<constructor-arg index="0" value="1"></constructor-arg>
+	   <!--生成12为随机数的种子-->
+    	<constructor-arg index="1" value="0"></constructor-arg>
+    </bean>
+>>>>>>> origin/master
    
 </beans>

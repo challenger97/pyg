@@ -1,13 +1,16 @@
 package cn.itcast.core.pojo.entity;
 
+
+
+import cn.itcast.core.pojo.item.ItemCat;
+
 import java.io.Serializable;
 import java.util.List;
-import java.util.Map;
 
 public class CateGory02 implements Serializable {
 
     String category02Name;
-    List<Map> category03List;
+    List<ItemCat> category03List;
 
     public String getCategory02Name() {
         return category02Name;
@@ -17,11 +20,11 @@ public class CateGory02 implements Serializable {
         this.category02Name = category02Name;
     }
 
-    public List<Map> getCategory03List() {
+    public List<ItemCat> getCategory03List() {
         return category03List;
     }
 
-    public void setCategory03List(List<Map> category03List) {
+    public void setCategory03List(List<ItemCat> category03List) {
         this.category03List = category03List;
     }
 }

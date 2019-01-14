@@ -28,7 +28,7 @@ public class ItemCatServiceImpl implements ItemCatService {
             redisTemplate.boundHashOps(Constants.CATEGORY_LIST_REDIS).put(itemCat.getName(), itemCat.getTypeId());
         }
 
-        //根据父级id查询它的子集, 展示到页面
+        //根据父级id查询它的子集,展示到页面
         ItemCatQuery query = new ItemCatQuery();
         ItemCatQuery.Criteria criteria = query.createCriteria();
         criteria.andParentIdEqualTo(parentId);

@@ -5,7 +5,11 @@
     <id column="id" property="id" jdbcType="BIGINT" />
     <result column="name" property="name" jdbcType="VARCHAR" />
     <result column="first_char" property="firstChar" jdbcType="VARCHAR" />
+<<<<<<< HEAD
     <result column="brand_status" property="brandStatus" jdbcType="INTEGER" />
+=======
+    <result column="audit_status" property="auditStatus" jdbcType="VARCHAR" />
+>>>>>>> origin/master
   </resultMap>
   <sql id="Example_Where_Clause" >
     <where >
@@ -67,7 +71,11 @@
   </sql>
   <sql id="Base_Column_List" >
     <if test="fields == null" >
+<<<<<<< HEAD
       id, name, first_char, brand_status
+=======
+      id, name, first_char, audit_status
+>>>>>>> origin/master
     </if>
     <if test="fields != null" >
       ${fields}
@@ -88,8 +96,13 @@
     </if>
   </select>
   <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Long" >
+<<<<<<< HEAD
     select 
     id,name,first_char,brand_status
+=======
+    select
+    id,name,first_char,audit_status
+>>>>>>> origin/master
     from tb_brand
     where id = #{id,jdbcType=BIGINT}
   </select>
@@ -104,10 +117,17 @@
     </if>
   </delete>
   <insert id="insert" parameterType="cn.itcast.core.pojo.good.Brand" >
+<<<<<<< HEAD
     insert into tb_brand (id, name, first_char, 
       brand_status)
     values (#{id,jdbcType=BIGINT}, #{name,jdbcType=VARCHAR}, #{firstChar,jdbcType=VARCHAR}, 
       #{brandStatus,jdbcType=INTEGER})
+=======
+    insert into tb_brand (id, name, first_char,
+      audit_status)
+    values (#{id,jdbcType=BIGINT}, #{name,jdbcType=VARCHAR}, #{firstChar,jdbcType=VARCHAR},
+      #{auditStatus,jdbcType=VARCHAR})
+>>>>>>> origin/master
   </insert>
   <insert id="insertSelective" parameterType="cn.itcast.core.pojo.good.Brand" >
     insert into tb_brand
@@ -121,8 +141,13 @@
       <if test="firstChar != null" >
         first_char,
       </if>
+<<<<<<< HEAD
       <if test="brandStatus != null" >
         brand_status,
+=======
+      <if test="auditStatus != null" >
+        audit_status,
+>>>>>>> origin/master
       </if>
     </trim>
     <trim prefix="values (" suffix=")" suffixOverrides="," >
@@ -135,8 +160,13 @@
       <if test="firstChar != null" >
         #{firstChar,jdbcType=VARCHAR},
       </if>
+<<<<<<< HEAD
       <if test="brandStatus != null" >
         #{brandStatus,jdbcType=INTEGER},
+=======
+      <if test="auditStatus != null" >
+        #{auditStatus,jdbcType=VARCHAR},
+>>>>>>> origin/master
       </if>
     </trim>
   </insert>
@@ -158,8 +188,13 @@
       <if test="record.firstChar != null" >
         first_char = #{record.firstChar,jdbcType=VARCHAR},
       </if>
+<<<<<<< HEAD
       <if test="record.brandStatus != null" >
         brand_status = #{record.brandStatus,jdbcType=INTEGER},
+=======
+      <if test="record.auditStatus != null" >
+        audit_status = #{record.auditStatus,jdbcType=VARCHAR},
+>>>>>>> origin/master
       </if>
     </set>
     <if test="_parameter != null" >
@@ -169,9 +204,15 @@
   <update id="updateByExample" parameterType="map" >
     update tb_brand
     set id = #{record.id,jdbcType=BIGINT},
+<<<<<<< HEAD
       name = #{record.name,jdbcType=VARCHAR},
       first_char = #{record.firstChar,jdbcType=VARCHAR},
       brand_status = #{record.brandStatus,jdbcType=INTEGER}
+=======
+    name = #{record.name,jdbcType=VARCHAR},
+    first_char = #{record.firstChar,jdbcType=VARCHAR},
+    audit_status = #{record.auditStatus,jdbcType=VARCHAR}
+>>>>>>> origin/master
     <if test="_parameter != null" >
       <include refid="Update_By_Example_Where_Clause" />
     </if>
@@ -185,8 +226,13 @@
       <if test="firstChar != null" >
         first_char = #{firstChar,jdbcType=VARCHAR},
       </if>
+<<<<<<< HEAD
       <if test="brandStatus != null" >
         brand_status = #{brandStatus,jdbcType=INTEGER},
+=======
+      <if test="auditStatus != null" >
+        audit_status = #{auditStatus,jdbcType=VARCHAR},
+>>>>>>> origin/master
       </if>
     </set>
     where id = #{id,jdbcType=BIGINT}
@@ -195,7 +241,23 @@
     update tb_brand
     set name = #{name,jdbcType=VARCHAR},
       first_char = #{firstChar,jdbcType=VARCHAR},
+<<<<<<< HEAD
       brand_status = #{brandStatus,jdbcType=INTEGER}
     where id = #{id,jdbcType=BIGINT}
   </update>
+=======
+      audit_status = #{auditStatus,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+
+
+  <select id="selectOptionList" resultType="java.util.Map">
+    select id, name as text from tb_brand
+  </select>
+
+
+  <select id="selectOptionList" resultType="java.util.Map">
+    select id, name as text from tb_brand where audit_status=1
+  </select>
+>>>>>>> origin/master
 </mapper>

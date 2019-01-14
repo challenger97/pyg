@@ -530,4 +530,10 @@
       seller_id = #{sellerId,jdbcType=VARCHAR}
     where order_id = #{orderId,jdbcType=BIGINT}
   </update>
+<<<<<<< HEAD
+=======
+  <select id="selectByOneDay" resultType="java.util.Map">
+    SELECT * FROM tb_order WHERE create_time like #{date}"%"
+  </select>
+>>>>>>> origin/master
 </mapper>

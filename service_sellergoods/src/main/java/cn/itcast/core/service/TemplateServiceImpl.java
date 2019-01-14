@@ -68,6 +68,7 @@ public class TemplateServiceImpl implements TemplateService {
 
     @Override
     public void add(TypeTemplate template) {
+        template.setAuditStatus("0");
         templateDao.insertSelective(template);
     }
 

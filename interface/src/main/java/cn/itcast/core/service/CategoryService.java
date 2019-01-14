@@ -2,9 +2,10 @@ package cn.itcast.core.service;
 
 import cn.itcast.core.pojo.ad.ContentCategory;
 import cn.itcast.core.pojo.entity.PageResult;
-
+import cn.itcast.core.pojo.good.Brand;
 
 import java.util.List;
+import java.util.Map;
 
 public interface CategoryService {
 
@@ -19,5 +20,6 @@ public interface CategoryService {
     public void update(ContentCategory category);
 
     public void delete(Long[] ids);
+
 
 }

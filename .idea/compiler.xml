@@ -22,6 +22,7 @@
         <module name="web_user" />
       </profile>
     </annotationProcessing>
+<<<<<<< HEAD
     <bytecodeTargetLevel>
       <module name="common" target="1.5" />
       <module name="dao" target="1.5" />
@@ -39,5 +40,7 @@
       <module name="web_shop" target="1.7" />
       <module name="web_user" target="1.7" />
     </bytecodeTargetLevel>
+=======
+>>>>>>> origin/master
   </component>
 </project>

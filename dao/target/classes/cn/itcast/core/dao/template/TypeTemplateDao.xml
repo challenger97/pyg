@@ -7,7 +7,11 @@
     <result column="spec_ids" property="specIds" jdbcType="VARCHAR" />
     <result column="brand_ids" property="brandIds" jdbcType="VARCHAR" />
     <result column="custom_attribute_items" property="customAttributeItems" jdbcType="VARCHAR" />
+<<<<<<< HEAD
     <result column="template_status" property="templateStatus" jdbcType="INTEGER" />
+=======
+    <result column="audit_status" property="auditStatus" jdbcType="VARCHAR" />
+>>>>>>> origin/master
   </resultMap>
   <sql id="Example_Where_Clause" >
     <where >
@@ -69,7 +73,11 @@
   </sql>
   <sql id="Base_Column_List" >
     <if test="fields == null" >
+<<<<<<< HEAD
       id, name, spec_ids, brand_ids, custom_attribute_items, template_status
+=======
+      id, name, spec_ids, brand_ids, custom_attribute_items, audit_status
+>>>>>>> origin/master
     </if>
     <if test="fields != null" >
       ${fields}
@@ -90,8 +98,13 @@
     </if>
   </select>
   <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Long" >
+<<<<<<< HEAD
     select 
     id,name,spec_ids,brand_ids,custom_attribute_items,template_status
+=======
+    select
+    id,name,spec_ids,brand_ids,custom_attribute_items,audit_status
+>>>>>>> origin/master
     from tb_type_template
     where id = #{id,jdbcType=BIGINT}
   </select>
@@ -106,11 +119,19 @@
     </if>
   </delete>
   <insert id="insert" parameterType="cn.itcast.core.pojo.template.TypeTemplate" >
+<<<<<<< HEAD
     insert into tb_type_template (id, name, spec_ids, 
       brand_ids, custom_attribute_items, template_status
       )
     values (#{id,jdbcType=BIGINT}, #{name,jdbcType=VARCHAR}, #{specIds,jdbcType=VARCHAR}, 
       #{brandIds,jdbcType=VARCHAR}, #{customAttributeItems,jdbcType=VARCHAR}, #{templateStatus,jdbcType=INTEGER}
+=======
+    insert into tb_type_template (id, name, spec_ids,
+      brand_ids, custom_attribute_items, audit_status
+      )
+    values (#{id,jdbcType=BIGINT}, #{name,jdbcType=VARCHAR}, #{specIds,jdbcType=VARCHAR},
+      #{brandIds,jdbcType=VARCHAR}, #{customAttributeItems,jdbcType=VARCHAR}, #{auditStatus,jdbcType=VARCHAR}
+>>>>>>> origin/master
       )
   </insert>
   <insert id="insertSelective" parameterType="cn.itcast.core.pojo.template.TypeTemplate" >
@@ -131,8 +152,13 @@
       <if test="customAttributeItems != null" >
         custom_attribute_items,
       </if>
+<<<<<<< HEAD
       <if test="templateStatus != null" >
         template_status,
+=======
+      <if test="auditStatus != null" >
+        audit_status,
+>>>>>>> origin/master
       </if>
     </trim>
     <trim prefix="values (" suffix=")" suffixOverrides="," >
@@ -151,8 +177,13 @@
       <if test="customAttributeItems != null" >
         #{customAttributeItems,jdbcType=VARCHAR},
       </if>
+<<<<<<< HEAD
       <if test="templateStatus != null" >
         #{templateStatus,jdbcType=INTEGER},
+=======
+      <if test="auditStatus != null" >
+        #{auditStatus,jdbcType=VARCHAR},
+>>>>>>> origin/master
       </if>
     </trim>
   </insert>
@@ -180,8 +211,13 @@
       <if test="record.customAttributeItems != null" >
         custom_attribute_items = #{record.customAttributeItems,jdbcType=VARCHAR},
       </if>
+<<<<<<< HEAD
       <if test="record.templateStatus != null" >
         template_status = #{record.templateStatus,jdbcType=INTEGER},
+=======
+      <if test="record.auditStatus != null" >
+        audit_status = #{record.auditStatus,jdbcType=VARCHAR},
+>>>>>>> origin/master
       </if>
     </set>
     <if test="_parameter != null" >
@@ -191,11 +227,19 @@
   <update id="updateByExample" parameterType="map" >
     update tb_type_template
     set id = #{record.id,jdbcType=BIGINT},
+<<<<<<< HEAD
       name = #{record.name,jdbcType=VARCHAR},
       spec_ids = #{record.specIds,jdbcType=VARCHAR},
       brand_ids = #{record.brandIds,jdbcType=VARCHAR},
       custom_attribute_items = #{record.customAttributeItems,jdbcType=VARCHAR},
       template_status = #{record.templateStatus,jdbcType=INTEGER}
+=======
+    name = #{record.name,jdbcType=VARCHAR},
+    spec_ids = #{record.specIds,jdbcType=VARCHAR},
+    brand_ids = #{record.brandIds,jdbcType=VARCHAR},
+    custom_attribute_items = #{record.customAttributeItems,jdbcType=VARCHAR},
+    audit_status = #{record.auditStatus,jdbcType=VARCHAR}
+>>>>>>> origin/master
     <if test="_parameter != null" >
       <include refid="Update_By_Example_Where_Clause" />
     </if>
@@ -215,8 +259,13 @@
       <if test="customAttributeItems != null" >
         custom_attribute_items = #{customAttributeItems,jdbcType=VARCHAR},
       </if>
+<<<<<<< HEAD
       <if test="templateStatus != null" >
         template_status = #{templateStatus,jdbcType=INTEGER},
+=======
+      <if test="auditStatus != null" >
+        audit_status = #{auditStatus,jdbcType=VARCHAR},
+>>>>>>> origin/master
       </if>
     </set>
     where id = #{id,jdbcType=BIGINT}
@@ -227,7 +276,11 @@
       spec_ids = #{specIds,jdbcType=VARCHAR},
       brand_ids = #{brandIds,jdbcType=VARCHAR},
       custom_attribute_items = #{customAttributeItems,jdbcType=VARCHAR},
+<<<<<<< HEAD
       template_status = #{templateStatus,jdbcType=INTEGER}
+=======
+      audit_status = #{auditStatus,jdbcType=VARCHAR}
+>>>>>>> origin/master
     where id = #{id,jdbcType=BIGINT}
   </update>
 </mapper>

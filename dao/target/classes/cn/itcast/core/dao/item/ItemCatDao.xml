@@ -6,7 +6,11 @@
     <result column="parent_id" property="parentId" jdbcType="BIGINT" />
     <result column="name" property="name" jdbcType="VARCHAR" />
     <result column="type_id" property="typeId" jdbcType="BIGINT" />
+<<<<<<< HEAD
     <result column="cat_status" property="catStatus" jdbcType="INTEGER" />
+=======
+    <result column="audit_status" property="auditStatus" jdbcType="VARCHAR" />
+>>>>>>> origin/master
   </resultMap>
   <sql id="Example_Where_Clause" >
     <where >
@@ -68,7 +72,11 @@
   </sql>
   <sql id="Base_Column_List" >
     <if test="fields == null" >
+<<<<<<< HEAD
       id, parent_id, name, type_id, cat_status
+=======
+      id, parent_id, name, type_id, audit_status
+>>>>>>> origin/master
     </if>
     <if test="fields != null" >
       ${fields}
@@ -89,8 +97,13 @@
     </if>
   </select>
   <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Long" >
+<<<<<<< HEAD
     select 
     id,parent_id,name,type_id,cat_status
+=======
+    select
+    id,parent_id,name,type_id,audit_status
+>>>>>>> origin/master
     from tb_item_cat
     where id = #{id,jdbcType=BIGINT}
   </select>
@@ -105,10 +118,17 @@
     </if>
   </delete>
   <insert id="insert" parameterType="cn.itcast.core.pojo.item.ItemCat" >
+<<<<<<< HEAD
     insert into tb_item_cat (id, parent_id, name, 
       type_id, cat_status)
     values (#{id,jdbcType=BIGINT}, #{parentId,jdbcType=BIGINT}, #{name,jdbcType=VARCHAR}, 
       #{typeId,jdbcType=BIGINT}, #{catStatus,jdbcType=INTEGER})
+=======
+    insert into tb_item_cat (id, parent_id, name,
+      type_id, audit_status)
+    values (#{id,jdbcType=BIGINT}, #{parentId,jdbcType=BIGINT}, #{name,jdbcType=VARCHAR},
+      #{typeId,jdbcType=BIGINT}, #{auditStatus,jdbcType=VARCHAR})
+>>>>>>> origin/master
   </insert>
   <insert id="insertSelective" parameterType="cn.itcast.core.pojo.item.ItemCat" >
     insert into tb_item_cat
@@ -125,8 +145,13 @@
       <if test="typeId != null" >
         type_id,
       </if>
+<<<<<<< HEAD
       <if test="catStatus != null" >
         cat_status,
+=======
+      <if test="auditStatus != null" >
+        audit_status,
+>>>>>>> origin/master
       </if>
     </trim>
     <trim prefix="values (" suffix=")" suffixOverrides="," >
@@ -142,8 +167,13 @@
       <if test="typeId != null" >
         #{typeId,jdbcType=BIGINT},
       </if>
+<<<<<<< HEAD
       <if test="catStatus != null" >
         #{catStatus,jdbcType=INTEGER},
+=======
+      <if test="auditStatus != null" >
+        #{auditStatus,jdbcType=VARCHAR},
+>>>>>>> origin/master
       </if>
     </trim>
   </insert>
@@ -168,8 +198,13 @@
       <if test="record.typeId != null" >
         type_id = #{record.typeId,jdbcType=BIGINT},
       </if>
+<<<<<<< HEAD
       <if test="record.catStatus != null" >
         cat_status = #{record.catStatus,jdbcType=INTEGER},
+=======
+      <if test="record.auditStatus != null" >
+        audit_status = #{record.auditStatus,jdbcType=VARCHAR},
+>>>>>>> origin/master
       </if>
     </set>
     <if test="_parameter != null" >
@@ -179,10 +214,17 @@
   <update id="updateByExample" parameterType="map" >
     update tb_item_cat
     set id = #{record.id,jdbcType=BIGINT},
+<<<<<<< HEAD
       parent_id = #{record.parentId,jdbcType=BIGINT},
       name = #{record.name,jdbcType=VARCHAR},
       type_id = #{record.typeId,jdbcType=BIGINT},
       cat_status = #{record.catStatus,jdbcType=INTEGER}
+=======
+    parent_id = #{record.parentId,jdbcType=BIGINT},
+    name = #{record.name,jdbcType=VARCHAR},
+    type_id = #{record.typeId,jdbcType=BIGINT},
+    audit_status = #{record.auditStatus,jdbcType=VARCHAR}
+>>>>>>> origin/master
     <if test="_parameter != null" >
       <include refid="Update_By_Example_Where_Clause" />
     </if>
@@ -199,8 +241,13 @@
       <if test="typeId != null" >
         type_id = #{typeId,jdbcType=BIGINT},
       </if>
+<<<<<<< HEAD
       <if test="catStatus != null" >
         cat_status = #{catStatus,jdbcType=INTEGER},
+=======
+      <if test="auditStatus != null" >
+        audit_status = #{auditStatus,jdbcType=VARCHAR},
+>>>>>>> origin/master
       </if>
     </set>
     where id = #{id,jdbcType=BIGINT}
@@ -210,7 +257,11 @@
     set parent_id = #{parentId,jdbcType=BIGINT},
       name = #{name,jdbcType=VARCHAR},
       type_id = #{typeId,jdbcType=BIGINT},
+<<<<<<< HEAD
       cat_status = #{catStatus,jdbcType=INTEGER}
+=======
+      audit_status = #{auditStatus,jdbcType=VARCHAR}
+>>>>>>> origin/master
     where id = #{id,jdbcType=BIGINT}
   </update>
 </mapper>
