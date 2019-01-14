@@ -24,11 +24,11 @@ public class SpecController {
     private SpecificationService specService;
 
     @RequestMapping("/updateStatus")
-    public Result updateStatus(Long[] ids,Integer status){
+    public Result updateStatus(Long[] ids,Integer auditStatus){
         try {
             if (ids!=null){
                 for (Long id : ids) {
-                    specService.updateStatus(id,status);
+                    specService.updateStatus(id,auditStatus);
                 }
             }
             return new Result(true,"审核成功");

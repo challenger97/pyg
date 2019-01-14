@@ -79,5 +79,32 @@ app.controller("brandController",function($scope,$controller,$http,brandService)
 			$scope.list = response.rows;
 		});
 	}
+
+    // 显示状态
+    $scope.status = ["未审核","审核通过","审核未通过","关闭"];
+
+    $scope.itemCatList = [];
+    // 显示分类:
+    $scope.findItemCatList = function(){
+
+        itemCatService.findAll().success(function(response){
+            for(var i=0;i<response.length;i++){
+                $scope.itemCatList[response[i].id] = response[i].name;
+            }
+        });
+    }
+
+    //	品牌审核
+    $scope.updateStatus=function (auditStatus) {
+        brandService.updateStatus($scope.selectIds,auditStatus).success(function(response){
+            if(response.success){
+                $scope.reloadList();//刷新列表
+                $scope.selectIds = [];
+                alert(response.message);
+            }else{
+                alert(response.message);
+            }
+        });
+    }
 	
 });

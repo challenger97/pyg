@@ -245,12 +245,4 @@
       sort_order = #{sortOrder,jdbcType=INTEGER}
     where id = #{id,jdbcType=BIGINT}
   </update>
-
-  <select id="selectFloorContentName" parameterType="long" resultType="java.util.Map">
-    SELECT DISTINCT title from tb_content where category_id=#{id}
-  </select>
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/master
 </mapper>

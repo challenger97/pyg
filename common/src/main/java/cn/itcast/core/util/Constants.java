@@ -1,7 +1,5 @@
 package cn.itcast.core.util;
 
-import com.sun.tools.internal.xjc.reader.xmlschema.bindinfo.BIConversion;
-
 /**
  * 常量接口
  */
@@ -15,7 +13,5 @@ public interface Constants {
 
     public final static String CART_LIST_COOKIE = "pyg_cartList";
     public final static String CART_LIST_REDIS = "pyg_cartList";
-
-    public final static String FLOORCONTENT_lIST_REDIS = "floorContentList";
 
 }

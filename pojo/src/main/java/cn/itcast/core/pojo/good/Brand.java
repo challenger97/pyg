@@ -15,10 +15,7 @@ public class Brand implements Serializable {
      */
     private String firstChar;
 
-    /**
-     * 审核状态
-     */
-    private String auditStatus;
+    private Integer auditStatus;
 
     private static final long serialVersionUID = 1L;
 
@@ -46,12 +43,12 @@ public class Brand implements Serializable {
         this.firstChar = firstChar == null ? null : firstChar.trim();
     }
 
-    public String getAuditStatus() {
+    public Integer getAuditStatus() {
         return auditStatus;
     }
 
-    public void setAuditStatus(String auditStatus) {
-        this.auditStatus = auditStatus == null ? null : auditStatus.trim();
+    public void setAuditStatus(Integer auditStatus) {
+        this.auditStatus = auditStatus;
     }
 
     @Override
@@ -82,9 +79,9 @@ public class Brand implements Serializable {
         }
         Brand other = (Brand) that;
         return (this.getId() == null ? other.getId() == null : this.getId().equals(other.getId()))
-                && (this.getName() == null ? other.getName() == null : this.getName().equals(other.getName()))
-                && (this.getFirstChar() == null ? other.getFirstChar() == null : this.getFirstChar().equals(other.getFirstChar()))
-                && (this.getAuditStatus() == null ? other.getAuditStatus() == null : this.getAuditStatus().equals(other.getAuditStatus()));
+            && (this.getName() == null ? other.getName() == null : this.getName().equals(other.getName()))
+            && (this.getFirstChar() == null ? other.getFirstChar() == null : this.getFirstChar().equals(other.getFirstChar()))
+            && (this.getAuditStatus() == null ? other.getAuditStatus() == null : this.getAuditStatus().equals(other.getAuditStatus()));
     }
 
     @Override

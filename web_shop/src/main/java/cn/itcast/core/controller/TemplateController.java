@@ -45,9 +45,4 @@ public class TemplateController {
     }
 
 
-    @RequestMapping("/search")
-    public PageResult search(@RequestBody  TypeTemplate template, Integer page, Integer rows) {
-        PageResult result = templateService.findPage(template, page, rows);
-        return result;
-    }
 }

@@ -4,11 +4,7 @@
   <resultMap id="BaseResultMap" type="cn.itcast.core.pojo.specification.Specification" >
     <id column="id" property="id" jdbcType="BIGINT" />
     <result column="spec_name" property="specName" jdbcType="VARCHAR" />
-<<<<<<< HEAD
-    <result column="status" property="status" jdbcType="INTEGER" />
-=======
-    <result column="audit_status" property="auditStatus" jdbcType="VARCHAR" />
->>>>>>> origin/master
+    <result column="audit_status" property="auditStatus" jdbcType="INTEGER" />
   </resultMap>
   <sql id="Example_Where_Clause" >
     <where >
@@ -70,11 +66,7 @@
   </sql>
   <sql id="Base_Column_List" >
     <if test="fields == null" >
-<<<<<<< HEAD
-      id, spec_name, status
-=======
       id, spec_name, audit_status
->>>>>>> origin/master
     </if>
     <if test="fields != null" >
       ${fields}
@@ -95,13 +87,8 @@
     </if>
   </select>
   <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Long" >
-<<<<<<< HEAD
     select 
-    id,spec_name,status
-=======
-    select
     id,spec_name,audit_status
->>>>>>> origin/master
     from tb_specification
     where id = #{id,jdbcType=BIGINT}
   </select>
@@ -116,15 +103,9 @@
     </if>
   </delete>
   <insert id="insert" parameterType="cn.itcast.core.pojo.specification.Specification" >
-<<<<<<< HEAD
-    insert into tb_specification (id, spec_name, status
-      )
-    values (#{id,jdbcType=BIGINT}, #{specName,jdbcType=VARCHAR}, #{status,jdbcType=INTEGER}
-=======
     insert into tb_specification (id, spec_name, audit_status
       )
-    values (#{id,jdbcType=BIGINT}, #{specName,jdbcType=VARCHAR}, #{auditStatus,jdbcType=VARCHAR}
->>>>>>> origin/master
+    values (#{id,jdbcType=BIGINT}, #{specName,jdbcType=VARCHAR}, #{auditStatus,jdbcType=INTEGER}
       )
   </insert>
   <insert id="insertSelective" parameterType="cn.itcast.core.pojo.specification.Specification" >
@@ -136,13 +117,8 @@
       <if test="specName != null" >
         spec_name,
       </if>
-<<<<<<< HEAD
-      <if test="status != null" >
-        status,
-=======
       <if test="auditStatus != null" >
         audit_status,
->>>>>>> origin/master
       </if>
     </trim>
     <trim prefix="values (" suffix=")" suffixOverrides="," >
@@ -152,13 +128,8 @@
       <if test="specName != null" >
         #{specName,jdbcType=VARCHAR},
       </if>
-<<<<<<< HEAD
-      <if test="status != null" >
-        #{status,jdbcType=INTEGER},
-=======
       <if test="auditStatus != null" >
-        #{auditStatus,jdbcType=VARCHAR},
->>>>>>> origin/master
+        #{auditStatus,jdbcType=INTEGER},
       </if>
     </trim>
   </insert>
@@ -177,13 +148,8 @@
       <if test="record.specName != null" >
         spec_name = #{record.specName,jdbcType=VARCHAR},
       </if>
-<<<<<<< HEAD
-      <if test="record.status != null" >
-        status = #{record.status,jdbcType=INTEGER},
-=======
       <if test="record.auditStatus != null" >
-        audit_status = #{record.auditStatus,jdbcType=VARCHAR},
->>>>>>> origin/master
+        audit_status = #{record.auditStatus,jdbcType=INTEGER},
       </if>
     </set>
     <if test="_parameter != null" >
@@ -193,13 +159,8 @@
   <update id="updateByExample" parameterType="map" >
     update tb_specification
     set id = #{record.id,jdbcType=BIGINT},
-<<<<<<< HEAD
       spec_name = #{record.specName,jdbcType=VARCHAR},
-      status = #{record.status,jdbcType=INTEGER}
-=======
-    spec_name = #{record.specName,jdbcType=VARCHAR},
-    audit_status = #{record.auditStatus,jdbcType=VARCHAR}
->>>>>>> origin/master
+      audit_status = #{record.auditStatus,jdbcType=INTEGER}
     <if test="_parameter != null" >
       <include refid="Update_By_Example_Where_Clause" />
     </if>
@@ -210,13 +171,8 @@
       <if test="specName != null" >
         spec_name = #{specName,jdbcType=VARCHAR},
       </if>
-<<<<<<< HEAD
-      <if test="status != null" >
-        status = #{status,jdbcType=INTEGER},
-=======
       <if test="auditStatus != null" >
-        audit_status = #{auditStatus,jdbcType=VARCHAR},
->>>>>>> origin/master
+        audit_status = #{auditStatus,jdbcType=INTEGER},
       </if>
     </set>
     where id = #{id,jdbcType=BIGINT}
@@ -224,18 +180,10 @@
   <update id="updateByPrimaryKey" parameterType="cn.itcast.core.pojo.specification.Specification" >
     update tb_specification
     set spec_name = #{specName,jdbcType=VARCHAR},
-<<<<<<< HEAD
-      status = #{status,jdbcType=INTEGER}
+      audit_status = #{auditStatus,jdbcType=INTEGER}
     where id = #{id,jdbcType=BIGINT}
   </update>
-=======
-      audit_status = #{auditStatus,jdbcType=VARCHAR}
-    where id = #{id,jdbcType=BIGINT}
-  </update>
-
   <select id="selectOptionList" resultType="java.util.Map">
-    select id,spec_name as text from tb_specification where audit_status=1
+    SELECT id,spec_name as text from tb_specification
   </select>
-
->>>>>>> origin/master
 </mapper>

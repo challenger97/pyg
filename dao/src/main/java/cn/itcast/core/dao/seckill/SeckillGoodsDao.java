@@ -3,6 +3,8 @@ package cn.itcast.core.dao.seckill;
 import cn.itcast.core.pojo.seckill.SeckillGoods;
 import cn.itcast.core.pojo.seckill.SeckillGoodsQuery;
 import java.util.List;
+import java.util.Map;
+
 import org.apache.ibatis.annotations.Param;
 
 public interface SeckillGoodsDao {
@@ -27,4 +29,6 @@ public interface SeckillGoodsDao {
     int updateByPrimaryKeySelective(SeckillGoods record);
 
     int updateByPrimaryKey(SeckillGoods record);
+
+    public List<Map> selectOptionList();
 }

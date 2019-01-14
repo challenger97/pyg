@@ -2,7 +2,6 @@ package cn.itcast.core.service;
 
 import cn.itcast.core.pojo.entity.PageResult;
 import cn.itcast.core.pojo.entity.Result;
-import cn.itcast.core.pojo.entity.SpecEntity;
 import cn.itcast.core.pojo.template.TypeTemplate;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -24,4 +23,5 @@ public interface TemplateService {
 
     public List<Map> findBySpecList(Long id);
 
+    public void updateStatus(Long id, Integer auditStatus);
 }

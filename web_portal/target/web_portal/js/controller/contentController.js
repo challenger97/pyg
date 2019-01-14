@@ -3,11 +3,7 @@ app.controller("contentController",function($scope,contentService){
 	// 根据分类ID查询广告的方法:
 	$scope.findByCategoryId = function(categoryId){
 		contentService.findByCategoryId(categoryId).success(function(response){
-
-			$scope.contentList[categoryId] = response.contentList;
-
-			$scope.categoryList=response.categoryList;
-
+			$scope.contentList[categoryId] = response;
 		});
 	}
 	

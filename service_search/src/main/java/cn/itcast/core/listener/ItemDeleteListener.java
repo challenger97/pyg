@@ -24,7 +24,5 @@ public class ItemDeleteListener implements MessageListener {
         } catch (Exception e) {
             e.printStackTrace();
         }
-
-
     }
 }

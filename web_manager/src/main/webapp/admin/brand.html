@@ -75,7 +75,7 @@
 		                                  <td>{{entity.firstChar}}</td>
 										  <td>
 		                                  	<span>
-												{{entity.brandStatus||0?'审核通过':'未审核'}}
+												{{status[entity.auditStatus]}}
 		                                  	</span>
 										  </td>
 										  <td class="text-center">

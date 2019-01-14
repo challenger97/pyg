@@ -13,10 +13,7 @@ public class Specification implements Serializable {
      */
     private String specName;
 
-    /**
-     * 审核状态
-     */
-    private String auditStatus;
+    private Integer auditStatus;
 
     private static final long serialVersionUID = 1L;
 
@@ -36,12 +33,12 @@ public class Specification implements Serializable {
         this.specName = specName == null ? null : specName.trim();
     }
 
-    public String getAuditStatus() {
+    public Integer getAuditStatus() {
         return auditStatus;
     }
 
-    public void setAuditStatus(String auditStatus) {
-        this.auditStatus = auditStatus == null ? null : auditStatus.trim();
+    public void setAuditStatus(Integer auditStatus) {
+        this.auditStatus = auditStatus;
     }
 
     @Override
@@ -71,8 +68,8 @@ public class Specification implements Serializable {
         }
         Specification other = (Specification) that;
         return (this.getId() == null ? other.getId() == null : this.getId().equals(other.getId()))
-                && (this.getSpecName() == null ? other.getSpecName() == null : this.getSpecName().equals(other.getSpecName()))
-                && (this.getAuditStatus() == null ? other.getAuditStatus() == null : this.getAuditStatus().equals(other.getAuditStatus()));
+            && (this.getSpecName() == null ? other.getSpecName() == null : this.getSpecName().equals(other.getSpecName()))
+            && (this.getAuditStatus() == null ? other.getAuditStatus() == null : this.getAuditStatus().equals(other.getAuditStatus()));
     }
 
     @Override

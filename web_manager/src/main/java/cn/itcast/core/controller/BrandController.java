@@ -3,6 +3,7 @@ package cn.itcast.core.controller;
 import cn.itcast.core.pojo.entity.PageResult;
 import cn.itcast.core.pojo.entity.Result;
 import cn.itcast.core.pojo.good.Brand;
+import cn.itcast.core.pojo.item.ItemCat;
 import cn.itcast.core.service.BrandService;
 import com.alibaba.dubbo.config.annotation.Reference;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -20,11 +21,11 @@ public class BrandController {
     private BrandService brandService;
 
     @RequestMapping("/updateStatus")
-    public Result updateStatus(long[] ids,Integer brandStatus){
+    public Result updateStatus(long[] ids,Integer auditStatus){
         try {
             if (ids != null){
                 for (long id : ids) {
-                    brandService.updateStatus(id,brandStatus);
+                    brandService.updateStatus(id,auditStatus);
                 }
             }
             return new Result(true,"审核成功");

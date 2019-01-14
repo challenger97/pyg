@@ -6,7 +6,7 @@
     <result column="parent_id" property="parentId" jdbcType="BIGINT" />
     <result column="name" property="name" jdbcType="VARCHAR" />
     <result column="type_id" property="typeId" jdbcType="BIGINT" />
-    <result column="audit_status" property="auditStatus" jdbcType="VARCHAR" />
+    <result column="audit_status" property="auditStatus" jdbcType="INTEGER" />
   </resultMap>
   <sql id="Example_Where_Clause" >
     <where >
@@ -89,7 +89,7 @@
     </if>
   </select>
   <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Long" >
-    select
+    select 
     id,parent_id,name,type_id,audit_status
     from tb_item_cat
     where id = #{id,jdbcType=BIGINT}
@@ -105,10 +105,10 @@
     </if>
   </delete>
   <insert id="insert" parameterType="cn.itcast.core.pojo.item.ItemCat" >
-    insert into tb_item_cat (id, parent_id, name,
+    insert into tb_item_cat (id, parent_id, name, 
       type_id, audit_status)
-    values (#{id,jdbcType=BIGINT}, #{parentId,jdbcType=BIGINT}, #{name,jdbcType=VARCHAR},
-      #{typeId,jdbcType=BIGINT}, #{auditStatus,jdbcType=VARCHAR})
+    values (#{id,jdbcType=BIGINT}, #{parentId,jdbcType=BIGINT}, #{name,jdbcType=VARCHAR}, 
+      #{typeId,jdbcType=BIGINT}, #{auditStatus,jdbcType=INTEGER})
   </insert>
   <insert id="insertSelective" parameterType="cn.itcast.core.pojo.item.ItemCat" >
     insert into tb_item_cat
@@ -143,7 +143,7 @@
         #{typeId,jdbcType=BIGINT},
       </if>
       <if test="auditStatus != null" >
-        #{auditStatus,jdbcType=VARCHAR},
+        #{auditStatus,jdbcType=INTEGER},
       </if>
     </trim>
   </insert>
@@ -169,7 +169,7 @@
         type_id = #{record.typeId,jdbcType=BIGINT},
       </if>
       <if test="record.auditStatus != null" >
-        audit_status = #{record.auditStatus,jdbcType=VARCHAR},
+        audit_status = #{record.auditStatus,jdbcType=INTEGER},
       </if>
     </set>
     <if test="_parameter != null" >
@@ -179,10 +179,10 @@
   <update id="updateByExample" parameterType="map" >
     update tb_item_cat
     set id = #{record.id,jdbcType=BIGINT},
-    parent_id = #{record.parentId,jdbcType=BIGINT},
-    name = #{record.name,jdbcType=VARCHAR},
-    type_id = #{record.typeId,jdbcType=BIGINT},
-    audit_status = #{record.auditStatus,jdbcType=VARCHAR}
+      parent_id = #{record.parentId,jdbcType=BIGINT},
+      name = #{record.name,jdbcType=VARCHAR},
+      type_id = #{record.typeId,jdbcType=BIGINT},
+      audit_status = #{record.auditStatus,jdbcType=INTEGER}
     <if test="_parameter != null" >
       <include refid="Update_By_Example_Where_Clause" />
     </if>
@@ -200,7 +200,7 @@
         type_id = #{typeId,jdbcType=BIGINT},
       </if>
       <if test="auditStatus != null" >
-        audit_status = #{auditStatus,jdbcType=VARCHAR},
+        audit_status = #{auditStatus,jdbcType=INTEGER},
       </if>
     </set>
     where id = #{id,jdbcType=BIGINT}
@@ -210,7 +210,7 @@
     set parent_id = #{parentId,jdbcType=BIGINT},
       name = #{name,jdbcType=VARCHAR},
       type_id = #{typeId,jdbcType=BIGINT},
-      audit_status = #{auditStatus,jdbcType=VARCHAR}
+      audit_status = #{auditStatus,jdbcType=INTEGER}
     where id = #{id,jdbcType=BIGINT}
   </update>
 </mapper>

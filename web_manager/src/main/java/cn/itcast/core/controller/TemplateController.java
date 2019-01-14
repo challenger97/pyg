@@ -2,6 +2,8 @@ package cn.itcast.core.controller;
 
 import cn.itcast.core.pojo.entity.PageResult;
 import cn.itcast.core.pojo.entity.Result;
+import cn.itcast.core.pojo.good.Brand;
+import cn.itcast.core.pojo.specification.Specification;
 import cn.itcast.core.pojo.template.TypeTemplate;
 import cn.itcast.core.service.TemplateService;
 import com.alibaba.dubbo.config.annotation.Reference;
@@ -18,6 +20,22 @@ public class TemplateController {
 
     @Reference
     private TemplateService templateService;
+
+//    模板审核
+    @RequestMapping("/updateStatus")
+    public Result updateStatus(Long[] ids, Integer auditStatus){
+        try {
+            if (ids!=null){
+                for (Long id : ids) {
+                    templateService.updateStatus(id,auditStatus);
+                }
+            }
+            return new Result(true,"审核成功");
+        } catch (Exception e) {
+            e.printStackTrace();
+            return new Result(false,"审核失败");
+        }
+    }
 
     /**
      * 模板高级分页查询
@@ -69,4 +87,6 @@ public class TemplateController {
             return new Result(false, "删除失败!");
         }
     }
+
+
 }

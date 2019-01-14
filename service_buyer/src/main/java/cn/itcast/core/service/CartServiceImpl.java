@@ -14,7 +14,6 @@ import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 
-/*
 @Service
 public class CartServiceImpl implements CartService {
     
@@ -89,14 +88,12 @@ public class CartServiceImpl implements CartService {
         return cartList;
     }
 
-    */
-/**
+    /**
      * 从当前购物项集合中查询是否存在这个商品, 存在则返回这个购物项对象, 不存在则返回null
      * @param orderItemList 购物项集合
      * @param itemId        商品库存id
      * @return
-     *//*
-
+     */
     private OrderItem findOrderItemByItemId(List<OrderItem> orderItemList, Long itemId) {
         if (orderItemList != null) {
             for (OrderItem orderItem : orderItemList) {
@@ -108,14 +105,12 @@ public class CartServiceImpl implements CartService {
         return null;
     }
 
-    */
-/**
+    /**
      * 创建购物项对象
      * @param item  库存对象
      * @param num   购买数量
      * @return
-     *//*
-
+     */
     private  OrderItem createOrderItem(Item item, Integer num) {
         if (num <= 0) {
             throw new RuntimeException("购买数量非法!");
@@ -140,14 +135,12 @@ public class CartServiceImpl implements CartService {
         return orderItem;
     }
 
-    */
-/**
+    /**
      * 查询此购物车集合中有没有这个卖家的购物车对象, 有则返回, 没有返回null
      * @param cartList  购物车集合
      * @param sellerId  卖家id
      * @return
-     *//*
-
+     */
     private BuyerCart findBuyerCartBySellerId(List<BuyerCart> cartList, String sellerId) {
         if (cartList != null) {
             for (BuyerCart cart : cartList) {
@@ -189,4 +182,3 @@ public class CartServiceImpl implements CartService {
         return redisCartList;
     }
 }
-*/

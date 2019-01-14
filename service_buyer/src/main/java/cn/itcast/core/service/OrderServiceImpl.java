@@ -1,22 +1,15 @@
 package cn.itcast.core.service;
 
-
 import cn.itcast.core.dao.log.PayLogDao;
 import cn.itcast.core.dao.order.OrderDao;
 import cn.itcast.core.dao.order.OrderItemDao;
 import cn.itcast.core.pojo.entity.BuyerCart;
-import cn.itcast.core.pojo.entity.PageResult;
 import cn.itcast.core.pojo.log.PayLog;
 import cn.itcast.core.pojo.order.Order;
 import cn.itcast.core.pojo.order.OrderItem;
-import cn.itcast.core.pojo.order.OrderQuery;
 import cn.itcast.core.util.Constants;
-
-
 import cn.itcast.core.util.IdWorker;
 import com.alibaba.dubbo.config.annotation.Service;
-import com.github.pagehelper.Page;
-import com.github.pagehelper.PageHelper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.transaction.annotation.Transactional;
@@ -25,7 +18,6 @@ import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
-
 
 @Service
 @Transactional
@@ -43,10 +35,10 @@ public class OrderServiceImpl implements  OrderService {
     @Autowired
     private RedisTemplate redisTemplate;
 
-   @Autowired
-   private IdWorker idWorker;
+    @Autowired
+    private IdWorker idWorker;
 
-
+    @Override
     public void add(Order order) {
         //1. 从订单对象中获取当前登录用户用户名
         String userId = order.getUserId();
@@ -151,75 +143,4 @@ public class OrderServiceImpl implements  OrderService {
         //4. 删除redis中这个用户的支付日志对象
         redisTemplate.boundHashOps("payLog").delete(userName);
     }
-
-    /**
-     * 查询所有
-     * @param username
-     * @return
-     */
-    @Override
-    public List<Order> findAll(String username) {
-        OrderQuery query = new OrderQuery();
-        OrderQuery.Criteria criteria = query.createCriteria();
-        criteria.andSellerIdEqualTo(username);
-        List<Order> orderList = orderDao.selectByExample(query);
-        return orderList;
-    }
-    /***
-     * 订单分页查询
-     * @param
-     * @param page
-     * @param rows
-     * @return
-     */
-    @Override
-    public PageResult findPage(String username, Integer page, Integer rows) {
-
-        PageHelper.startPage(page, rows);
-        OrderQuery query = new OrderQuery();
-        OrderQuery.Criteria criteria = query.createCriteria();
-        criteria.andSellerIdEqualTo(username);
-        Page<Order> orders =(Page<Order>)orderDao.selectByExample(query);
-        return new PageResult(orders.getTotal(),orders.getResult());
-    }
-
-
-
-
-    @Override
-    public List findIdByTime(Date start, Date end) {
-        List orderIdList = new ArrayList<>();
-        OrderQuery query = new OrderQuery();
-        OrderQuery.Criteria criteria = query.createCriteria();
-        criteria.andCreateTimeBetween(start, end);
-        List<Order> orders = orderDao.selectByExample(query);
-        for (Order order : orders) {
-            Long orderId = order.getOrderId();
-            orderIdList.add(orderId);
-        }
-        return orderIdList;
-    }
-
-
-    /***
-     * 条件查询
-     * @param order
-     * @param page
-     * @param rows
-     * @return
-     */
-  /*  @Override
-    public PageResult search(Order order, Integer page, Integer rows) {
-        PageHelper.startPage(page, rows);
-        OrderQuery query = new OrderQuery();
-        OrderQuery.Criteria criteria = query.createCriteria();
-        criteria.andSellerIdEqualTo(order.getSellerId());
-    if (order!=null){
-        if (order.getStatus()!=null && !"".equals(order.getStatus())){
-        criteria.andStatusEqualTo(order.getStatus());
-    }
-}
-        Page<Order> orders =(Page<Order>)orderDao.selectByExample(query);
-        return new PageResult(orders.getTotal(),orders.getResult());
-    }*/
 }

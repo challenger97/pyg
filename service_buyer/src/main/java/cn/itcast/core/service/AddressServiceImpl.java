@@ -8,7 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.List;
 
-/*@Service
+@Service
 public class AddressServiceImpl implements AddressService {
 
     @Autowired
@@ -22,4 +22,4 @@ public class AddressServiceImpl implements AddressService {
         List<Address> addressList = addressDao.selectByExample(query);
         return addressList;
     }
-}*/
+}

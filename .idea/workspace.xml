@@ -1,396 +1,155 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ArtifactsWorkspaceSettings">
-    <artifacts-to-build>
-<<<<<<< HEAD
-      <artifact name="service_buyer:war exploded" />
-      <artifact name="service_buyer:war exploded" />
-    </artifacts-to-build>
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="0fff3ef7-8acb-4bed-ace3-c4852787ae06" name="Default" comment="" />
-    <ignored path="$PROJECT_DIR$/web_shop/target/" />
-    <ignored path="$PROJECT_DIR$/web_portal/target/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/service_user/target/" />
-    <ignored path="$PROJECT_DIR$/interface/target/" />
-    <ignored path="$PROJECT_DIR$/service_sellergoods/target/" />
-    <ignored path="$PROJECT_DIR$/service_page/target/" />
-    <ignored path="$PROJECT_DIR$/pojo/target/" />
-    <ignored path="$PROJECT_DIR$/solr_util/target/" />
-    <ignored path="$PROJECT_DIR$/service_search/target/" />
-    <ignored path="$PROJECT_DIR$/dao/target/" />
-    <ignored path="$PROJECT_DIR$/service_buyer/target/" />
-    <ignored path="$PROJECT_DIR$/web_manager/target/" />
-    <ignored path="$PROJECT_DIR$/common/target/" />
-    <ignored path="$PROJECT_DIR$/web_user/target/" />
-=======
-      <artifact name="service_sellergoods:war exploded" />
-    </artifacts-to-build>
-  </component>
-  <component name="ChangeListManager">
-    <list default="true" id="7fc9d06e-4da3-441a-833f-e8914014356f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface/src/main/java/cn/itcast/core/service/SeckillOrderServicd.java" afterDir="false" />
+    <list default="true" id="646f98c2-a305-4a86-8ecd-c64b845d1529" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/service_buyer_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/service_buyer_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/service_page_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/service_page_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/service_search_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/service_search_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/service_sellergoods_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/service_sellergoods_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/service_user_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/service_user_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/web_manager_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/web_manager_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/web_portal_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/web_portal_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/web_shop_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/web_shop_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/web_user_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/web_user_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ca_juliusdavies_not_yet_commons_ssl_0_3_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_0_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_dubbo_2_8_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_28.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_6_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_6_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_6_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_0_9_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_miemiedev_mybatis_paginator_1_2_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_4_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_sgroschupf_zkclient_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_wxpay_wxpay_sdk_0_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_httpclient_commons_httpclient_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_3_7_0_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javassist_javassist_3_11_0_GA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jline_jline_0_9_94.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_1_6_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_16.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_32.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_jcip_jcip_annotations_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_activemq_activemq_client_5_13_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_j2ee_management_1_1_spec_1_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_jms_1_1_spec_1_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_cache_4_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_santuario_xmlsec_1_4_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_solr_solr_solrj_4_10_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15_1_45.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_wstx_asl_3_2_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_csource_fastdfs_fastdfs_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_fusesource_hawtbuf_hawtbuf_1_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jasig_cas_client_cas_client_core_3_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_2_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_noggit_noggit_0_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opensaml_opensaml_2_5_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opensaml_openws_1_4_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opensaml_xmltooling_1_3_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_owasp_esapi_esapi_2_0GA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_11_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_1_1_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_1_7_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_solr_1_5_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_cas_4_1_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_4_1_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_4_1_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_4_1_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_2_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_4_2_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_2_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_2_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_2_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_2_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_2_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_2_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jms_4_2_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_4_2_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_4_2_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_2_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_2_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_2_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_2_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__velocity_velocity_1_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xalan_serializer_2_7_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xalan_xalan_2_7_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xerces_xercesImpl_2_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_4_01.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xml_resolver_xml_resolver_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/common.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dao/dao.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao/src/main/resources/properties/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/dao/src/main/resources/properties/db.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao/target/classes/cn/itcast/core/dao/good/BrandDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dao/target/classes/cn/itcast/core/dao/good/BrandDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao/target/classes/cn/itcast/core/dao/good/GoodsDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao/target/classes/cn/itcast/core/dao/good/GoodsDescDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao/target/classes/cn/itcast/core/dao/item/ItemCatDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dao/target/classes/cn/itcast/core/dao/item/ItemCatDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao/target/classes/cn/itcast/core/dao/item/ItemDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao/target/classes/cn/itcast/core/dao/specification/SpecificationDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dao/target/classes/cn/itcast/core/dao/specification/SpecificationDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao/target/classes/cn/itcast/core/dao/template/FreightTemplateDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao/target/classes/cn/itcast/core/dao/template/FreightTemplateDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao/target/classes/cn/itcast/core/dao/template/TypeTemplateDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dao/target/classes/cn/itcast/core/dao/template/TypeTemplateDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao/target/classes/properties/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/dao/target/classes/properties/db.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao/target/test-classes/testDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/dao/target/test-classes/testDao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/interface/interface.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/interface/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface/src/main/java/cn/itcast/core/service/AddressService.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface/src/main/java/cn/itcast/core/service/AddressService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface/src/main/java/cn/itcast/core/service/BrandService.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface/src/main/java/cn/itcast/core/service/BrandService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface/src/main/java/cn/itcast/core/service/CartService.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface/src/main/java/cn/itcast/core/service/CartService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface/src/main/java/cn/itcast/core/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface/src/main/java/cn/itcast/core/service/CategoryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface/src/main/java/cn/itcast/core/service/CmsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface/src/main/java/cn/itcast/core/service/CmsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface/src/main/java/cn/itcast/core/service/ContentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface/src/main/java/cn/itcast/core/service/ContentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface/src/main/java/cn/itcast/core/service/GoodsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface/src/main/java/cn/itcast/core/service/GoodsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface/src/main/java/cn/itcast/core/service/ItemCatService.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface/src/main/java/cn/itcast/core/service/ItemCatService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface/src/main/java/cn/itcast/core/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface/src/main/java/cn/itcast/core/service/OrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface/src/main/java/cn/itcast/core/service/PayService.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface/src/main/java/cn/itcast/core/service/PayService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface/src/main/java/cn/itcast/core/service/SearchService.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface/src/main/java/cn/itcast/core/service/SearchService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface/src/main/java/cn/itcast/core/service/SellerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface/src/main/java/cn/itcast/core/service/SellerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface/src/main/java/cn/itcast/core/service/SolrManagerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface/src/main/java/cn/itcast/core/service/SolrManagerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface/src/main/java/cn/itcast/core/service/SpecificationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface/src/main/java/cn/itcast/core/service/SpecificationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface/src/main/java/cn/itcast/core/service/TemplateService.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface/src/main/java/cn/itcast/core/service/TemplateService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface/src/main/java/cn/itcast/core/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/interface/src/main/java/cn/itcast/core/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface/target/classes/cn/itcast/core/service/ContentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface/target/classes/cn/itcast/core/service/ContentService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface/target/classes/cn/itcast/core/service/SellerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/interface/target/classes/cn/itcast/core/service/SellerService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pojo/pojo.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pojo/target/classes/cn/itcast/core/pojo/good/Brand.class" beforeDir="false" afterPath="$PROJECT_DIR$/pojo/target/classes/cn/itcast/core/pojo/good/Brand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pojo/target/classes/cn/itcast/core/pojo/good/BrandQuery$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/pojo/target/classes/cn/itcast/core/pojo/good/BrandQuery$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pojo/target/classes/cn/itcast/core/pojo/good/BrandQuery$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/pojo/target/classes/cn/itcast/core/pojo/good/BrandQuery$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pojo/target/classes/cn/itcast/core/pojo/good/BrandQuery$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/pojo/target/classes/cn/itcast/core/pojo/good/BrandQuery$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pojo/target/classes/cn/itcast/core/pojo/item/ItemCat.class" beforeDir="false" afterPath="$PROJECT_DIR$/pojo/target/classes/cn/itcast/core/pojo/item/ItemCat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pojo/target/classes/cn/itcast/core/pojo/item/ItemCatQuery$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/pojo/target/classes/cn/itcast/core/pojo/item/ItemCatQuery$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pojo/target/classes/cn/itcast/core/pojo/item/ItemCatQuery$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/pojo/target/classes/cn/itcast/core/pojo/item/ItemCatQuery$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pojo/target/classes/cn/itcast/core/pojo/item/ItemCatQuery$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/pojo/target/classes/cn/itcast/core/pojo/item/ItemCatQuery$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pojo/target/classes/cn/itcast/core/pojo/specification/Specification.class" beforeDir="false" afterPath="$PROJECT_DIR$/pojo/target/classes/cn/itcast/core/pojo/specification/Specification.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pojo/target/classes/cn/itcast/core/pojo/specification/SpecificationQuery$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/pojo/target/classes/cn/itcast/core/pojo/specification/SpecificationQuery$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pojo/target/classes/cn/itcast/core/pojo/specification/SpecificationQuery$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/pojo/target/classes/cn/itcast/core/pojo/specification/SpecificationQuery$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pojo/target/classes/cn/itcast/core/pojo/specification/SpecificationQuery$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/pojo/target/classes/cn/itcast/core/pojo/specification/SpecificationQuery$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pojo/target/classes/cn/itcast/core/pojo/template/TypeTemplate.class" beforeDir="false" afterPath="$PROJECT_DIR$/pojo/target/classes/cn/itcast/core/pojo/template/TypeTemplate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pojo/target/classes/cn/itcast/core/pojo/template/TypeTemplateQuery$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/pojo/target/classes/cn/itcast/core/pojo/template/TypeTemplateQuery$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pojo/target/classes/cn/itcast/core/pojo/template/TypeTemplateQuery$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/pojo/target/classes/cn/itcast/core/pojo/template/TypeTemplateQuery$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pojo/target/classes/cn/itcast/core/pojo/template/TypeTemplateQuery$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/pojo/target/classes/cn/itcast/core/pojo/template/TypeTemplateQuery$GeneratedCriteria.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pyg_parent.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/service_buyer/service_buyer.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/service_page/service_page.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/service_search/service_search.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/service_sellergoods/service_sellergoods.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service_sellergoods/src/main/java/cn/itcast/core/service/BrandServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service_sellergoods/src/main/java/cn/itcast/core/service/BrandServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service_sellergoods/src/main/java/cn/itcast/core/service/ContentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service_sellergoods/src/main/java/cn/itcast/core/service/ContentServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service_sellergoods/src/main/java/cn/itcast/core/service/GoodsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service_sellergoods/src/main/java/cn/itcast/core/service/GoodsServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service_sellergoods/src/main/java/cn/itcast/core/service/ItemCatServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service_sellergoods/src/main/java/cn/itcast/core/service/ItemCatServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service_sellergoods/src/main/java/cn/itcast/core/service/SellerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service_sellergoods/src/main/java/cn/itcast/core/service/SellerServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service_sellergoods/src/main/java/cn/itcast/core/service/SpecificationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service_sellergoods/src/main/java/cn/itcast/core/service/SpecificationServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service_sellergoods/src/main/java/cn/itcast/core/service/TemplateServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service_sellergoods/src/main/java/cn/itcast/core/service/TemplateServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service_sellergoods/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service_sellergoods/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service_sellergoods/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/service_sellergoods/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service_sellergoods/target/classes/cn/itcast/core/service/BrandServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service_sellergoods/target/classes/cn/itcast/core/service/CategoryServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service_sellergoods/target/classes/cn/itcast/core/service/ContentServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service_sellergoods/target/classes/cn/itcast/core/service/GoodsServiceImpl$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service_sellergoods/target/classes/cn/itcast/core/service/GoodsServiceImpl$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service_sellergoods/target/classes/cn/itcast/core/service/GoodsServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service_sellergoods/target/classes/cn/itcast/core/service/ItemCatServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service_sellergoods/target/classes/cn/itcast/core/service/SellerServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service_sellergoods/target/classes/cn/itcast/core/service/SpecificationServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service_sellergoods/target/classes/cn/itcast/core/service/TemplateServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service_sellergoods/target/service_sellergoods/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/service_sellergoods/target/service_sellergoods/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service_sellergoods/target/service_sellergoods/WEB-INF/classes/cn/itcast/core/service/ContentServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/service_sellergoods/target/service_sellergoods/WEB-INF/classes/cn/itcast/core/service/ContentServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service_sellergoods/target/service_sellergoods/WEB-INF/classes/cn/itcast/core/service/SellerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/service_sellergoods/target/service_sellergoods/WEB-INF/classes/cn/itcast/core/service/SellerServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service_sellergoods/target/service_sellergoods/WEB-INF/classes/cn/itcast/core/service/TemplateServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/service_sellergoods/target/service_sellergoods/WEB-INF/classes/cn/itcast/core/service/TemplateServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service_sellergoods/target/service_sellergoods/WEB-INF/lib/common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/service_sellergoods/target/service_sellergoods/WEB-INF/lib/common-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service_sellergoods/target/service_sellergoods/WEB-INF/lib/dao-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/service_sellergoods/target/service_sellergoods/WEB-INF/lib/dao-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service_sellergoods/target/service_sellergoods/WEB-INF/lib/interface-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/service_sellergoods/target/service_sellergoods/WEB-INF/lib/interface-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service_sellergoods/target/service_sellergoods/WEB-INF/lib/pojo-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/service_sellergoods/target/service_sellergoods/WEB-INF/lib/pojo-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service_sellergoods/target/service_sellergoods/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service_sellergoods/target/service_sellergoods/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service_sellergoods/target/service_sellergoods/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/service_sellergoods/target/service_sellergoods/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service_sellergoods/target/test-classes/cn/itcast/core/test/TestBrandDao.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/service_user/service_user.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/solr_util/solr_util.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/web_manager/web_manager.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/web_portal/web_portal.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/java/cn/itcast/core/controller/SellerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/java/cn/itcast/core/controller/SellerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/java/cn/itcast/core/controller/TemplateController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/java/cn/itcast/core/controller/TemplateController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/resources/fastDFS/fdfs_client.conf" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/resources/fastDFS/fdfs_client.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/admin/goods.html" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/admin/goods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/admin/goods_edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/admin/goods_edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/admin/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/admin/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/admin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/admin/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/admin/password.html" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/admin/password.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/admin/seller.html" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/admin/seller.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/cooperation.html" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/cooperation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/css/webbase.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/css/webbase.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/js/base_pagination.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/js/base_pagination.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/js/controller/goodsController.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/js/controller/goodsController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/js/controller/sellerController.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/js/controller/sellerController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/js/service/goodsService.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/js/service/goodsService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/js/service/itemCatService.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/js/service/itemCatService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/js/service/sellerService.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/js/service/sellerService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/js/service/typeTemplateService.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/js/service/typeTemplateService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/adminLTE/css/AdminLTE.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/adminLTE/css/AdminLTE.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/adminLTE/css/AdminLTE.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/adminLTE/css/AdminLTE.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/adminLTE/css/alt/AdminLTE-bootstrap-social.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/adminLTE/css/alt/AdminLTE-bootstrap-social.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/adminLTE/css/alt/AdminLTE-fullcalendar.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/adminLTE/css/alt/AdminLTE-fullcalendar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/adminLTE/css/alt/AdminLTE-select2.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/adminLTE/css/alt/AdminLTE-select2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/adminLTE/css/alt/AdminLTE-without-plugins.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/adminLTE/css/alt/AdminLTE-without-plugins.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/adminLTE/css/alt/AdminLTE-without-plugins.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/adminLTE/css/alt/AdminLTE-without-plugins.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/adminLTE/css/skins/_all-skins.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/adminLTE/css/skins/_all-skins.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/adminLTE/css/skins/skin-black-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/adminLTE/css/skins/skin-black-light.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/adminLTE/css/skins/skin-black.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/adminLTE/css/skins/skin-black.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/adminLTE/css/skins/skin-blue-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/adminLTE/css/skins/skin-blue-light.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/adminLTE/css/skins/skin-blue.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/adminLTE/css/skins/skin-blue.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/adminLTE/css/skins/skin-green-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/adminLTE/css/skins/skin-green-light.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/adminLTE/css/skins/skin-green.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/adminLTE/css/skins/skin-green.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/adminLTE/css/skins/skin-purple-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/adminLTE/css/skins/skin-purple-light.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/adminLTE/css/skins/skin-purple.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/adminLTE/css/skins/skin-purple.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/adminLTE/css/skins/skin-red-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/adminLTE/css/skins/skin-red-light.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/adminLTE/css/skins/skin-red.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/adminLTE/css/skins/skin-red.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/adminLTE/css/skins/skin-yellow-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/adminLTE/css/skins/skin-yellow-light.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/adminLTE/css/skins/skin-yellow.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/adminLTE/css/skins/skin-yellow.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/adminLTE/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/adminLTE/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/adminLTE/js/app.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/adminLTE/js/app.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/adminLTE/js/demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/adminLTE/js/demo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/adminLTE/js/pages/dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/adminLTE/js/pages/dashboard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/adminLTE/js/pages/dashboard2.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/adminLTE/js/pages/dashboard2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/angularjs/angular-animate.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/angularjs/angular-animate.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/angularjs/angular-route.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/angularjs/angular-route.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/angularjs/angular.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/angularjs/angular.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/angularjs/pagination.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/angularjs/pagination.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/bootstrap/css/bootstrap-datetimepicker.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/bootstrap/css/bootstrap-datetimepicker.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/bootstrap/css/bootstrap-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/bootstrap/css/bootstrap-theme.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/bootstrap/css/bootstrap-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/bootstrap/css/bootstrap-theme.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/bootstrap/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/bootstrap/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/bootstrap/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/bootstrap/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/bootstrap/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/bootstrap/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/bootstrap/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/bootstrap/js/npm.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/bootstrap/js/npm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/jQuery/jquery-2.2.3.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/jQuery/jquery-2.2.3.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/kindeditor/kindeditor-all-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/kindeditor/kindeditor-all-min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/kindeditor/kindeditor-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/kindeditor/kindeditor-min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/.bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/.bower.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/bower.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/component.json" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/component.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/release.sh" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/release.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2-bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2-bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2.jquery.json" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2.jquery.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2_locale_ar.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2_locale_ar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2_locale_bg.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2_locale_bg.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2_locale_ca.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2_locale_ca.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2_locale_cs.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2_locale_cs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2_locale_da.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2_locale_da.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2_locale_de.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2_locale_de.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2_locale_el.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2_locale_el.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2_locale_en.js.template" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2_locale_en.js.template" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2_locale_es.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2_locale_es.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2_locale_et.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2_locale_et.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2_locale_eu.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2_locale_eu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2_locale_fa.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2_locale_fa.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2_locale_fi.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2_locale_fi.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2_locale_fr.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2_locale_fr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2_locale_gl.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2_locale_gl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2_locale_he.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2_locale_he.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2_locale_hr.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2_locale_hr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2_locale_hu.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2_locale_hu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2_locale_id.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2_locale_id.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2_locale_is.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2_locale_is.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2_locale_it.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2_locale_it.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2_locale_ja.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2_locale_ja.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2_locale_ka.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2_locale_ka.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2_locale_ko.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2_locale_ko.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2_locale_lt.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2_locale_lt.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2_locale_lv.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2_locale_lv.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2_locale_mk.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2_locale_mk.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2_locale_ms.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2_locale_ms.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2_locale_nl.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2_locale_nl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2_locale_no.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2_locale_no.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2_locale_pl.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2_locale_pl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2_locale_pt-BR.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2_locale_pt-BR.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2_locale_pt-PT.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2_locale_pt-PT.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2_locale_ro.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2_locale_ro.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2_locale_rs.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2_locale_rs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2_locale_ru.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2_locale_ru.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2_locale_sk.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2_locale_sk.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2_locale_sv.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2_locale_sv.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2_locale_th.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2_locale_th.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2_locale_tr.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2_locale_tr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2_locale_uk.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2_locale_uk.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2_locale_vi.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2_locale_vi.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2_locale_zh-CN.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2_locale_zh-CN.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2_locale_zh-TW.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/select2_locale_zh-TW.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/sampling.html" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/sampling.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/src/main/webapp/shoplogin.html" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/src/main/webapp/shoplogin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/classes/cn/itcast/core/controller/SellerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/classes/cn/itcast/core/controller/SellerController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/classes/cn/itcast/core/controller/TemplateController.class" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/classes/cn/itcast/core/controller/TemplateController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/classes/fastDFS/fdfs_client.conf" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/classes/fastDFS/fdfs_client.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/WEB-INF/classes/cn/itcast/core/controller/SellerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/WEB-INF/classes/cn/itcast/core/controller/SellerController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/WEB-INF/classes/cn/itcast/core/controller/TemplateController.class" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/WEB-INF/classes/cn/itcast/core/controller/TemplateController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/WEB-INF/classes/fastDFS/fdfs_client.conf" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/WEB-INF/classes/fastDFS/fdfs_client.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/WEB-INF/lib/common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/WEB-INF/lib/common-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/WEB-INF/lib/interface-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/WEB-INF/lib/interface-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/WEB-INF/lib/pojo-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/WEB-INF/lib/pojo-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/admin/goods.html" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/admin/goods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/admin/goods_edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/admin/goods_edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/admin/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/admin/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/admin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/admin/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/admin/password.html" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/admin/password.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/admin/seller.html" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/admin/seller.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/cooperation.html" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/cooperation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/css/webbase.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/css/webbase.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/js/controller/goodsController.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/js/controller/goodsController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/js/controller/sellerController.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/js/controller/sellerController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/js/service/goodsService.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/js/service/goodsService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/js/service/itemCatService.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/js/service/itemCatService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/js/service/sellerService.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/js/service/sellerService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/js/service/typeTemplateService.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/js/service/typeTemplateService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/adminLTE/css/AdminLTE.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/adminLTE/css/AdminLTE.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/adminLTE/css/AdminLTE.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/adminLTE/css/AdminLTE.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/adminLTE/css/alt/AdminLTE-bootstrap-social.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/adminLTE/css/alt/AdminLTE-bootstrap-social.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/adminLTE/css/alt/AdminLTE-fullcalendar.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/adminLTE/css/alt/AdminLTE-fullcalendar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/adminLTE/css/alt/AdminLTE-select2.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/adminLTE/css/alt/AdminLTE-select2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/adminLTE/css/alt/AdminLTE-without-plugins.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/adminLTE/css/alt/AdminLTE-without-plugins.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/adminLTE/css/alt/AdminLTE-without-plugins.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/adminLTE/css/alt/AdminLTE-without-plugins.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/adminLTE/css/skins/_all-skins.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/adminLTE/css/skins/_all-skins.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/adminLTE/css/skins/skin-black-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/adminLTE/css/skins/skin-black-light.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/adminLTE/css/skins/skin-black.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/adminLTE/css/skins/skin-black.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/adminLTE/css/skins/skin-blue-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/adminLTE/css/skins/skin-blue-light.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/adminLTE/css/skins/skin-blue.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/adminLTE/css/skins/skin-blue.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/adminLTE/css/skins/skin-green-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/adminLTE/css/skins/skin-green-light.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/adminLTE/css/skins/skin-green.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/adminLTE/css/skins/skin-green.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/adminLTE/css/skins/skin-purple-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/adminLTE/css/skins/skin-purple-light.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/adminLTE/css/skins/skin-purple.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/adminLTE/css/skins/skin-purple.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/adminLTE/css/skins/skin-red-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/adminLTE/css/skins/skin-red-light.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/adminLTE/css/skins/skin-red.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/adminLTE/css/skins/skin-red.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/adminLTE/css/skins/skin-yellow-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/adminLTE/css/skins/skin-yellow-light.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/adminLTE/css/skins/skin-yellow.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/adminLTE/css/skins/skin-yellow.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/adminLTE/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/adminLTE/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/adminLTE/js/app.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/adminLTE/js/app.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/adminLTE/js/demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/adminLTE/js/demo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/adminLTE/js/pages/dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/adminLTE/js/pages/dashboard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/adminLTE/js/pages/dashboard2.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/adminLTE/js/pages/dashboard2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/angularjs/angular-animate.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/angularjs/angular-animate.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/angularjs/angular-route.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/angularjs/angular-route.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/angularjs/angular.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/angularjs/angular.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/angularjs/pagination.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/angularjs/pagination.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/bootstrap/css/bootstrap-datetimepicker.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/bootstrap/css/bootstrap-datetimepicker.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/bootstrap/css/bootstrap-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/bootstrap/css/bootstrap-theme.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/bootstrap/css/bootstrap-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/bootstrap/css/bootstrap-theme.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/bootstrap/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/bootstrap/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/bootstrap/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/bootstrap/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/bootstrap/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/bootstrap/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/bootstrap/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/bootstrap/js/npm.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/bootstrap/js/npm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/jQuery/jquery-2.2.3.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/jQuery/jquery-2.2.3.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/kindeditor/kindeditor-all-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/kindeditor/kindeditor-all-min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/kindeditor/kindeditor-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/kindeditor/kindeditor-min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/.bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/.bower.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/bower.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/component.json" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/component.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/release.sh" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/release.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2-bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2-bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2.jquery.json" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2.jquery.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2_locale_ar.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2_locale_ar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2_locale_bg.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2_locale_bg.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2_locale_ca.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2_locale_ca.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2_locale_cs.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2_locale_cs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2_locale_da.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2_locale_da.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2_locale_de.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2_locale_de.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2_locale_el.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2_locale_el.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2_locale_en.js.template" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2_locale_en.js.template" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2_locale_es.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2_locale_es.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2_locale_et.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2_locale_et.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2_locale_eu.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2_locale_eu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2_locale_fa.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2_locale_fa.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2_locale_fi.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2_locale_fi.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2_locale_fr.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2_locale_fr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2_locale_gl.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2_locale_gl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2_locale_he.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2_locale_he.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2_locale_hr.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2_locale_hr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2_locale_hu.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2_locale_hu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2_locale_id.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2_locale_id.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2_locale_is.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2_locale_is.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2_locale_it.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2_locale_it.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2_locale_ja.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2_locale_ja.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2_locale_ka.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2_locale_ka.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2_locale_ko.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2_locale_ko.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2_locale_lt.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2_locale_lt.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2_locale_lv.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2_locale_lv.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2_locale_mk.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2_locale_mk.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2_locale_ms.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2_locale_ms.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2_locale_nl.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2_locale_nl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2_locale_no.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2_locale_no.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2_locale_pl.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2_locale_pl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2_locale_pt-BR.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2_locale_pt-BR.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2_locale_pt-PT.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2_locale_pt-PT.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2_locale_ro.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2_locale_ro.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2_locale_rs.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2_locale_rs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2_locale_ru.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2_locale_ru.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2_locale_sk.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2_locale_sk.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2_locale_sv.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2_locale_sv.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2_locale_th.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2_locale_th.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2_locale_tr.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2_locale_tr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2_locale_uk.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2_locale_uk.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2_locale_vi.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2_locale_vi.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2_locale_zh-CN.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2_locale_zh-CN.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2_locale_zh-TW.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/plugins/select2/select2_locale_zh-TW.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/sampling.html" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/sampling.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_shop/target/web_shop/shoplogin.html" beforeDir="false" afterPath="$PROJECT_DIR$/web_shop/target/web_shop/shoplogin.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web_shop/web_shop.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/web_user/web_user.iml" beforeDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/dao/target/" />
-    <ignored path="$PROJECT_DIR$/service_user/target/" />
-    <ignored path="$PROJECT_DIR$/common/target/" />
-    <ignored path="$PROJECT_DIR$/web_user/target/" />
-    <ignored path="$PROJECT_DIR$/solr_util/target/" />
     <ignored path="$PROJECT_DIR$/interface/target/" />
+    <ignored path="$PROJECT_DIR$/solr_util/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/common/target/" />
+    <ignored path="$PROJECT_DIR$/service_sellergoods/target/" />
+    <ignored path="$PROJECT_DIR$/web_user/target/" />
     <ignored path="$PROJECT_DIR$/service_buyer/target/" />
     <ignored path="$PROJECT_DIR$/web_shop/target/" />
-    <ignored path="$PROJECT_DIR$/web_manager/target/" />
     <ignored path="$PROJECT_DIR$/pojo/target/" />
-    <ignored path="$PROJECT_DIR$/service_sellergoods/target/" />
-    <ignored path="$PROJECT_DIR$/service_page/target/" />
     <ignored path="$PROJECT_DIR$/service_search/target/" />
+    <ignored path="$PROJECT_DIR$/web_manager/target/" />
+    <ignored path="$PROJECT_DIR$/service_user/target/" />
+    <ignored path="$PROJECT_DIR$/service_page/target/" />
     <ignored path="$PROJECT_DIR$/web_portal/target/" />
->>>>>>> origin/master
+    <ignored path="$PROJECT_DIR$/dao/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -398,151 +157,11 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-<<<<<<< HEAD
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_TABLE_DETAILS" value="true" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <expand />
-    <select />
-  </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="OrderController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web_shop/src/main/java/cn/itcast/core/controller/OrderController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="77" column="13" lean-forward="true" selection-start-line="77" selection-start-column="13" selection-end-line="77" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OrderService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/interface/src/main/java/cn/itcast/core/service/OrderService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="23" column="51" lean-forward="false" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-=======
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SeckillOrderServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service_sellergoods/src/main/java/cn/itcast/core/service/SeckillOrderServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
->>>>>>> origin/master
-            </state>
-          </provider>
-        </entry>
-      </file>
-<<<<<<< HEAD
-      <file leaf-file-name="OrderItemService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/interface/src/main/java/cn/itcast/core/service/OrderItemService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OrderServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service_buyer/src/main/java/cn/itcast/core/service/OrderServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="519">
-              <caret line="200" column="5" lean-forward="false" selection-start-line="200" selection-start-column="5" selection-end-line="200" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OrderItemServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service_buyer/src/main/java/cn/itcast/core/service/OrderItemServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-=======
-      <file leaf-file-name="db.properties" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dao/src/main/resources/properties/db.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
->>>>>>> origin/master
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
-<<<<<<< HEAD
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GradleLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/web_shop/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/service_sellergoods/src/main/java/cn/itcast/core/service/GoodsServiceImpl.java" />
-        <option value="$PROJECT_DIR$/web_shop/src/main/webapp/js/service/orderService.js" />
-        <option value="$PROJECT_DIR$/web_shop/src/main/webapp/admin/index.html" />
-        <option value="$PROJECT_DIR$/common/src/main/java/cn/itcast/core/util/DateUtils.java" />
-        <option value="$PROJECT_DIR$/web_shop/src/main/webapp/js/base_pagination.js" />
-        <option value="$PROJECT_DIR$/web_shop/src/main/webapp/js/controller/orderController.js" />
-        <option value="$PROJECT_DIR$/web_shop/src/main/webapp/admin/order.html" />
-        <option value="$PROJECT_DIR$/common/src/main/java/cn/itcast/core/util/IdWorker.java" />
-        <option value="$PROJECT_DIR$/service_buyer/src/main/java/cn/itcast/core/service/AddressServiceImpl.java" />
-        <option value="$PROJECT_DIR$/service_buyer/src/main/java/cn/itcast/core/service/CartServiceImpl.java" />
-        <option value="$PROJECT_DIR$/service_buyer/src/main/java/cn/itcast/core/service/PayServiceImpl.java" />
-        <option value="$PROJECT_DIR$/service_buyer/src/main/resources/spring/applicationContext-service.xml" />
-        <option value="$PROJECT_DIR$/dao/src/main/resources/properties/db.properties" />
-        <option value="$PROJECT_DIR$/dao/src/test/java/testDao.java" />
-        <option value="$PROJECT_DIR$/interface/src/main/java/cn/itcast/core/service/OrderService.java" />
-        <option value="$PROJECT_DIR$/interface/src/main/java/cn/itcast/core/service/OrderItemService.java" />
-        <option value="$PROJECT_DIR$/service_buyer/src/main/java/cn/itcast/core/service/OrderItemServiceImpl.java" />
-        <option value="$PROJECT_DIR$/web_shop/src/main/java/cn/itcast/core/controller/OrderController.java" />
-        <option value="$PROJECT_DIR$/service_buyer/src/main/java/cn/itcast/core/service/OrderServiceImpl.java" />
-=======
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-      </list>
-    </option>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/dao/src/main/resources/properties/db.properties" />
-        <option value="$PROJECT_DIR$/interface/src/main/java/cn/itcast/core/service/SellerService.java" />
-        <option value="$PROJECT_DIR$/interface/src/main/java/cn/itcast/core/service/ContentService.java" />
-        <option value="$PROJECT_DIR$/interface/src/main/java/cn/itcast/core/service/SpecificationService.java" />
-        <option value="$PROJECT_DIR$/interface/src/main/java/cn/itcast/core/service/CartService.java" />
-        <option value="$PROJECT_DIR$/service_sellergoods/src/main/java/cn/itcast/core/service/SeckillOrderServicd.java" />
->>>>>>> origin/master
-      </list>
-    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -550,136 +169,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="LogFilters">
-    <option name="FILTER_ERRORS" value="false" />
-    <option name="FILTER_WARNINGS" value="false" />
-    <option name="FILTER_INFO" value="true" />
-    <option name="FILTER_DEBUG" value="true" />
-    <option name="CUSTOM_FILTER" />
-  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-<<<<<<< HEAD
-        <option name="localRepository" value="F:\repository_pinyougou" />
-        <option name="mavenHome" value="H:/apache-maven-3.3.9" />
-        <option name="userSettingsFile" value="F:\repository_pinyougou\settings.xml" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="pyg_parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="pyg_parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-      </expand>
-      <select />
-    </treeState>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1346" />
-    <option name="height" value="688" />
-  </component>
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state>
-        <expanded-state>
-          <State>
-            <id />
-          </State>
-          <State>
-            <id>Android &gt; Lint &gt; Correctness</id>
-          </State>
-          <State>
-            <id>Code style issuesJava</id>
-          </State>
-          <State>
-            <id>Compiler issuesJava</id>
-          </State>
-          <State>
-            <id>Finalization issuesJava</id>
-          </State>
-          <State>
-            <id>GeneralJavaScript</id>
-          </State>
-          <State>
-            <id>Inheritance issuesJava</id>
-          </State>
-          <State>
-            <id>J2ME issuesJava</id>
-          </State>
-          <State>
-            <id>JSP Inspections</id>
-          </State>
-          <State>
-            <id>Java</id>
-          </State>
-          <State>
-            <id>Java 5Java language level migration aidsJava</id>
-          </State>
-          <State>
-            <id>Java 9Java language level migration aidsJava</id>
-          </State>
-          <State>
-            <id>Java language level migration aidsJava</id>
-          </State>
-          <State>
-            <id>JavaBeans issuesJava</id>
-          </State>
-          <State>
-            <id>JavaScript</id>
-          </State>
-          <State>
-            <id>Kotlin</id>
-          </State>
-          <State>
-            <id>Numeric issuesJava</id>
-          </State>
-          <State>
-            <id>Performance issuesJava</id>
-          </State>
-          <State>
-            <id>Probable bugsJava</id>
-          </State>
-          <State>
-            <id>Probable bugsKotlin</id>
-          </State>
-          <State>
-            <id>Security issuesJava</id>
-          </State>
-          <State>
-            <id>Serialization issuesJava</id>
-          </State>
-          <State>
-            <id>Verbose or redundant code constructsJava</id>
-          </State>
-        </expanded-state>
-      </profile-state>
-    </entry>
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
-=======
         <option name="mavenHome" value="C:/apache-maven-3.3.9" />
       </MavenGeneralSettings>
     </option>
@@ -695,476 +187,46 @@
     <option name="vmOptions" value="-Darchetypecatalog=local" />
   </component>
   <component name="NodePackageJsonFileManager">
-    <packageJsonPaths>
-      <path value="$PROJECT_DIR$/web_manager/src/main/webapp/plugins/select2/package.json" />
-      <path value="$PROJECT_DIR$/web_shop/src/main/webapp/plugins/select2/package.json" />
-    </packageJsonPaths>
+    <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1418" />
-    <option name="y" value="88" />
-    <option name="width" value="1462" />
-    <option name="height" value="1732" />
+    <option name="x" value="700" />
+    <option name="y" value="56" />
+    <option name="width" value="1226" />
+    <option name="height" value="982" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
->>>>>>> origin/master
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-<<<<<<< HEAD
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-=======
               <item name="pyg" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg" type="462c0819:PsiDirectoryNode" />
->>>>>>> origin/master
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-<<<<<<< HEAD
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="itcast" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="itcast" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="itcast" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="interface" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="itcast" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="itcast" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="itcast" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="service_buyer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="service_buyer" type="462c0819:PsiDirectoryNode" />
-=======
-              <item name="pyg" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="properties" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg" type="462c0819:PsiDirectoryNode" />
-              <item name="interface" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg" type="462c0819:PsiDirectoryNode" />
-              <item name="service_sellergoods" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg" type="462c0819:PsiDirectoryNode" />
-              <item name="service_sellergoods" type="462c0819:PsiDirectoryNode" />
->>>>>>> origin/master
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-<<<<<<< HEAD
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="service_buyer" type="462c0819:PsiDirectoryNode" />
-=======
-              <item name="pyg" type="462c0819:PsiDirectoryNode" />
-              <item name="service_sellergoods" type="462c0819:PsiDirectoryNode" />
->>>>>>> origin/master
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-<<<<<<< HEAD
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="service_buyer" type="462c0819:PsiDirectoryNode" />
-=======
-              <item name="pyg" type="462c0819:PsiDirectoryNode" />
-              <item name="service_sellergoods" type="462c0819:PsiDirectoryNode" />
->>>>>>> origin/master
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-<<<<<<< HEAD
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="service_buyer" type="462c0819:PsiDirectoryNode" />
-=======
-              <item name="pyg" type="462c0819:PsiDirectoryNode" />
-              <item name="service_sellergoods" type="462c0819:PsiDirectoryNode" />
->>>>>>> origin/master
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-<<<<<<< HEAD
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="service_buyer" type="462c0819:PsiDirectoryNode" />
-=======
-              <item name="pyg" type="462c0819:PsiDirectoryNode" />
-              <item name="service_sellergoods" type="462c0819:PsiDirectoryNode" />
->>>>>>> origin/master
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="itcast" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-<<<<<<< HEAD
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="service_buyer" type="462c0819:PsiDirectoryNode" />
-=======
-              <item name="pyg" type="462c0819:PsiDirectoryNode" />
-              <item name="service_sellergoods" type="462c0819:PsiDirectoryNode" />
->>>>>>> origin/master
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="itcast" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-<<<<<<< HEAD
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="service_buyer" type="462c0819:PsiDirectoryNode" />
-=======
-              <item name="pyg" type="462c0819:PsiDirectoryNode" />
-              <item name="service_sellergoods" type="462c0819:PsiDirectoryNode" />
->>>>>>> origin/master
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="itcast" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-<<<<<<< HEAD
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="service_buyer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="service_buyer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="service_buyer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="service_buyer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="web_shop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="web_shop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="web_shop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="web_shop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="web_shop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="web_shop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="itcast" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="web_shop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="itcast" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyg_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyg_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="web_shop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="itcast" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-=======
->>>>>>> origin/master
           </expand>
           <select />
         </subPane>
       </pane>
-<<<<<<< HEAD
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-    </panes>
-  </component>
-  <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.40344828" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="cn.itcast.core.service" />
-      <recent name="cn.itcast.core.controller" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\pyg\pyg_parent\interface\src\main\java\cn\itcast\core\service" />
-      <recent name="E:\pyg\pyg_parent\web_shop\src\main\webapp\admin" />
-      <recent name="E:\pyg\pyg_parent\service_buyer\src\main\java\cn\itcast\core\service" />
-      <recent name="E:\pyg\pyg_parent\service_buyer\src\main\resources\spring" />
-      <recent name="E:\pyg\pyg_parent\common\src\main\java\cn\itcast\core\util" />
-=======
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/JavaEE/pyg_parent" />
+    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="cn.itcast.core.service" />
->>>>>>> origin/master
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -1178,39 +240,11 @@
       </list>
     </option>
   </component>
-<<<<<<< HEAD
-  <component name="RunManager" selected="Tomcat Server.service_buyer">
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <module />
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-=======
-  <component name="RunManager" selected="Tomcat Server.service">
+  <component name="RunManager">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
->>>>>>> origin/master
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" />
@@ -1220,73 +254,13 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-<<<<<<< HEAD
-      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="testDao.getMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="dao" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="testDao" />
-      <option name="METHOD_NAME" value="getMap" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-=======
->>>>>>> origin/master
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-<<<<<<< HEAD
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="testDao.getResul" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="dao" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="testDao" />
-      <option name="METHOD_NAME" value="getResul" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-    </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-=======
       <patterns />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
->>>>>>> origin/master
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
@@ -1299,380 +273,67 @@
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <option name="OUTPUT_DIRECTORY" />
-<<<<<<< HEAD
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-=======
->>>>>>> origin/master
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
       <option name="USE_DEFAULT_REPORTERS" value="false" />
       <option name="PROPERTIES_FILE" />
-<<<<<<< HEAD
-      <envs />
       <properties />
       <listeners />
     </configuration>
-    <configuration name="service_buyer" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.52" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER" value="false" />
-      <option name="COMMON_VM_ARGUMENTS" value="-Xms128m -Xmx128m -XX:PermSize=64m -XX:MaxPermSize=128m" />
-      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
-      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
-      <deployment>
-        <artifact name="service_buyer:war exploded">
-=======
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="service" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.52" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER" value="false" />
-      <option name="UPDATING_POLICY" value="restart-server" />
-      <deployment>
-        <artifact name="service_sellergoods:war exploded">
->>>>>>> origin/master
-          <settings>
-            <option name="CONTEXT_PATH" value="/" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings>
-<<<<<<< HEAD
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_pyg_parent_2" />
-        <option name="HTTP_PORT" value="8084" />
-        <option name="JNDI_PORT" value="1094" />
-=======
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_pyg_parent_9" />
->>>>>>> origin/master
-      </server-settings>
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
-<<<<<<< HEAD
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="59001" />
-=======
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="64571" />
->>>>>>> origin/master
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method>
-        <option name="BuildArtifacts" enabled="true">
-<<<<<<< HEAD
-          <artifact name="service_buyer:war exploded" />
-          <artifact name="service_buyer:war exploded" />
-        </option>
-      </method>
-    </configuration>
-    <configuration name="web_shop" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.52" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER" value="false" />
-      <option name="COMMON_VM_ARGUMENTS" value="-Xms128m -Xmx128m -XX:PermSize=64m -XX:MaxPermSize=128m" />
-      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
-      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
-=======
-          <artifact name="service_sellergoods:war exploded" />
-        </option>
-      </method>
-    </configuration>
-    <configuration name="shop" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.52" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER" value="false" />
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/" />
-      <option name="UPDATING_POLICY" value="restart-server" />
->>>>>>> origin/master
-      <deployment>
-        <artifact name="web_shop:war exploded">
-          <settings>
-            <option name="CONTEXT_PATH" value="/" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings>
-<<<<<<< HEAD
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_pyg_parent" />
-=======
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_pyg_parent_8" />
->>>>>>> origin/master
-        <option name="HTTP_PORT" value="8080" />
-        <option name="JNDI_PORT" value="1090" />
-      </server-settings>
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
-<<<<<<< HEAD
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="53095" />
-=======
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="64563" />
->>>>>>> origin/master
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method>
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="web_shop:war exploded" />
-        </option>
-      </method>
-    </configuration>
-<<<<<<< HEAD
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
-    </configuration>
-    <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.web_shop" />
-      <item index="1" class="java.lang.String" itemvalue="Tomcat Server.service_buyer" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.testDao.getResul" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.testDao.getMap" />
-    </list>
-    <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.testDao.getResul" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.testDao.getMap" />
-      </list>
-    </recent_temporary>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
-  </component>
-  <component name="SvnConfiguration">
-    <configuration>C:\Users\任豪\AppData\Roaming\Subversion</configuration>
-  </component>
-  <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="0fff3ef7-8acb-4bed-ace3-c4852787ae06" name="Default" comment="" />
-      <created>1547007714299</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1547007714299</updated>
-      <workItem from="1547007716183" duration="3403000" />
-      <workItem from="1547012489941" duration="25092000" />
-      <workItem from="1547040652675" duration="6499000" />
-      <workItem from="1547109588914" duration="2217000" />
-      <workItem from="1547199056317" duration="2661000" />
-    </task>
-    <task id="LOCAL-00001" summary="订单统计完成任毫">
-      <created>1547429400552</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1547429400552</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
-    <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="testDao_getMap - 2019.01.10 at 10h 28m 13s.xml">
-      <configuration name="testDao.getMap" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="testDao_getResul - 2019.01.10 at 10h 27m 48s.xml">
-      <configuration name="testDao.getResul" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="testDao_getResul - 2019.01.10 at 10h 28m 59s.xml">
-      <configuration name="testDao.getResul" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="testDao_getResul - 2019.01.10 at 10h 31m 22s.xml">
-      <configuration name="testDao.getResul" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="testDao_getResul - 2019.01.10 at 10h 32m 18s.xml">
-      <configuration name="testDao.getResul" configurationId="JUnit" />
-    </history-entry>
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39872000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.085667215" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.51894563" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7479407" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29425114" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-=======
-    <list>
-      <item itemvalue="Tomcat Server.shop" />
-      <item itemvalue="Tomcat Server.service" />
-    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7fc9d06e-4da3-441a-833f-e8914014356f" name="Default" comment="" />
-      <created>1547361096349</created>
+      <changelist id="646f98c2-a305-4a86-8ecd-c64b845d1529" name="Default" comment="" />
+      <created>1547436823829</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1547361096349</updated>
-      <workItem from="1547361099580" duration="312000" />
-      <workItem from="1547361458377" duration="325000" />
+      <updated>1547436823829</updated>
+      <workItem from="1547436827169" duration="311000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="637000" />
+    <option name="totallyTimeSpent" value="311000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="34" width="1453" height="873" extended-state="6" />
     <layout>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32974428" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info anchor="bottom" id="Tail" order="7" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info id="Capture Tool" />
+      <window_info id="Designer" />
+      <window_info anchor="bottom" id="Tail" />
+      <window_info anchor="right" id="Database" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39973083" />
+      <window_info id="UI Designer" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32974428" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="bottom" id="Java Enterprise" order="7" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info id="Image Layers" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2530466" />
-      <window_info id="Web" order="2" side_tool="true" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24946237" />
+      <window_info id="Web" side_tool="true" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
->>>>>>> origin/master
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1681,513 +342,19 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-<<<<<<< HEAD
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="添加订单查询web层" />
-    <MESSAGE value="添加订单查询接口方法" />
-    <MESSAGE value="添加订单查询service层" />
-    <MESSAGE value="添加订单页面" />
-    <MESSAGE value="订单查询web层完成" />
-    <MESSAGE value="订单查询service层实现类完成" />
-    <MESSAGE value="订单统计interface层完成" />
-    <MESSAGE value="订单统计interface2层完成" />
-    <MESSAGE value="订单统计web层完成" />
-    <MESSAGE value="订单统计完成任毫" />
-    <option name="LAST_COMMIT_MESSAGE" value="订单统计完成任毫" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="4" />
-    </breakpoint-manager>
-    <watches-manager />
-  </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web_portal/src/main/java/cn/itcast/core/controller/OrderController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="17" column="18" lean-forward="false" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_portal/src/main/java/cn/itcast/core/controller/ContentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_portal/src/main/java/cn/itcast/core/controller/BuyerCartController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_portal/src/main/java/cn/itcast/core/controller/AddressController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_portal/src/main/java/cn/itcast/core/controller/PayController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-295">
-          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_shop/src/main/java/cn/itcast/core/controller/GoodsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-266">
-          <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service_sellergoods/src/main/java/cn/itcast/core/service/BrandServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="21" column="23" lean-forward="false" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interface/src/main/java/cn/itcast/core/service/BrandService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_manager/src/main/java/cn/itcast/core/controller/BrandController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="19" column="18" lean-forward="false" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_shop/src/main/webapp/admin/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="348" column="49" lean-forward="false" selection-start-line="348" selection-start-column="49" selection-end-line="348" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_shop/src/main/webapp/js/service/itemCatService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-66">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_shop/src/main/webapp/js/service/uploadService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_shop/src/main/webapp/js/service/typeTemplateService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-125">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_shop/src/main/webapp/js/controller/goodsController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="239" column="8" lean-forward="true" selection-start-line="239" selection-start-column="8" selection-end-line="239" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pojo/src/main/java/cn/itcast/core/pojo/order/OrderQuery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_shop/src/main/webapp/js/controller/baseController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_shop/src/main/webapp/js/base_pagination.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_shop/src/main/webapp/plugins/angularjs/pagination.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_shop/src/main/webapp/plugins/angularjs/pagination.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-415">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_shop/src/main/webapp/admin/goods.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1117">
-          <caret line="20" column="69" lean-forward="false" selection-start-line="20" selection-start-column="69" selection-end-line="20" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_manager/src/main/webapp/js/controller/brandShenheController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="15" lean-forward="false" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_manager/src/main/webapp/plugins/angularjs/pagination.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pojo/src/main/java/cn/itcast/core/pojo/order/Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="100" column="33" lean-forward="false" selection-start-line="100" selection-start-column="19" selection-end-line="100" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_shop/src/main/webapp/js/service/orderService.js" />
-    <entry file="file://$PROJECT_DIR$/service_buyer/src/main/java/cn/itcast/core/service/CartServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="185" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="192" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service_buyer/src/main/java/cn/itcast/core/service/AddressServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service_buyer/src/main/java/cn/itcast/core/service/PayServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="92" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_manager/src/main/webapp/admin/brand.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="66" column="33" lean-forward="false" selection-start-line="66" selection-start-column="33" selection-end-line="66" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dao/src/main/java/cn/itcast/core/dao/log/PayLogDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_shop/src/main/webapp/js/controller/orderController.js" />
-    <entry file="file://$PROJECT_DIR$/service_buyer/src/main/resources/spring/applicationContext-tx.xml" />
-    <entry file="file://$PROJECT_DIR$/dao/src/main/resources/properties/db.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="40" lean-forward="false" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/itcast/core/util/IdWorker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service_buyer/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dao/src/main/resources/spring/applicationContext-dao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="14" column="51" lean-forward="true" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
-          <folding>
-            <element signature="e#1125#1138#0" expanded="false" />
-            <element signature="e#1176#1194#0" expanded="false" />
-            <element signature="e#1232#1250#0" expanded="false" />
-            <element signature="e#1295#1311#0" expanded="false" />
-=======
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="2" />
-    </breakpoint-manager>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/interface/src/main/java/cn/itcast/core/service/SellerService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pojo/src/main/java/cn/itcast/core/pojo/good/Brand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-50">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interface/src/main/java/cn/itcast/core/service/SeckillOrderServicd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interface/src/main/java/cn/itcast/core/service/CartService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
->>>>>>> origin/master
-          </folding>
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/dao/src/main/resources/mybatis/SqlMapConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="63" lean-forward="true" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service_buyer/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dao/src/test/java/testDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="29" column="63" lean-forward="false" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service_buyer/src/main/resources/spring/applicationContext-service.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="21" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_shop/src/main/webapp/admin/order.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="111" column="0" lean-forward="false" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interface/interface.iml" />
-    <entry file="file://$PROJECT_DIR$/interface/interface (1) (cn.itcast).iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interface/src/main/java/cn/itcast/core/service/AddressService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_shop/web_shop.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_shop/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-266">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_parent.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interface/src/main/java/cn/itcast/core/service/OrderService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="23" column="51" lean-forward="false" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interface/src/main/java/cn/itcast/core/service/OrderItemService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service_buyer/src/main/java/cn/itcast/core/service/OrderServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
-          <caret line="200" column="5" lean-forward="false" selection-start-line="200" selection-start-column="5" selection-end-line="200" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service_buyer/src/main/java/cn/itcast/core/service/OrderItemServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_shop/src/main/java/cn/itcast/core/controller/OrderController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="77" column="13" lean-forward="true" selection-start-line="77" selection-start-column="13" selection-end-line="77" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-=======
-    <entry file="file://$PROJECT_DIR$/interface/src/main/java/cn/itcast/core/service/SpecificationService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="45" lean-forward="true" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interface/src/main/java/cn/itcast/core/service/ContentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interface/src/main/java/cn/itcast/core/service/SellerService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service_sellergoods/src/main/java/cn/itcast/core/service/SeckillOrderServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dao/src/main/resources/properties/db.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
->>>>>>> origin/master
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
     <states>
-<<<<<<< HEAD
-      <state key="ArquillianSettingsConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.33678162" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <last-edited>web_shop:war exploded</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.40344828" />
-                <option value="0.5" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Spring</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.40344828" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-=======
->>>>>>> origin/master
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>
-<<<<<<< HEAD
-                <option value="0.40344828" />
-=======
                 <option value="0.2" />
->>>>>>> origin/master
               </list>
             </option>
           </splitter-proportions>
@@ -2195,34 +362,16 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-<<<<<<< HEAD
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.40344828" />
-=======
           <last-edited>10</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
->>>>>>> origin/master
               </list>
             </option>
           </splitter-proportions>
         </settings>
       </state>
-<<<<<<< HEAD
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>common</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.40344828" />
-                <option value="0.6" />
-=======
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
@@ -2230,20 +379,13 @@
             <option name="proportions">
               <list>
                 <option value="0.2106782" />
->>>>>>> origin/master
               </list>
             </option>
           </splitter-proportions>
         </settings>
       </state>
-<<<<<<< HEAD
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-=======
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
->>>>>>> origin/master
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -2253,22 +395,12 @@
           </splitter-proportions>
         </settings>
       </state>
-<<<<<<< HEAD
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.40344828" />
-=======
       <state key="ScopeChooserConfigurable.UI">
         <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
->>>>>>> origin/master
               </list>
             </option>
           </splitter-proportions>

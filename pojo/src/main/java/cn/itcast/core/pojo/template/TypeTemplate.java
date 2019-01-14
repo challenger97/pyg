@@ -25,10 +25,7 @@ public class TypeTemplate implements Serializable {
      */
     private String customAttributeItems;
 
-    /**
-     * 审核状态
-     */
-    private String auditStatus;
+    private Integer auditStatus;
 
     private static final long serialVersionUID = 1L;
 
@@ -72,12 +69,12 @@ public class TypeTemplate implements Serializable {
         this.customAttributeItems = customAttributeItems == null ? null : customAttributeItems.trim();
     }
 
-    public String getAuditStatus() {
+    public Integer getAuditStatus() {
         return auditStatus;
     }
 
-    public void setAuditStatus(String auditStatus) {
-        this.auditStatus = auditStatus == null ? null : auditStatus.trim();
+    public void setAuditStatus(Integer auditStatus) {
+        this.auditStatus = auditStatus;
     }
 
     @Override
@@ -110,11 +107,11 @@ public class TypeTemplate implements Serializable {
         }
         TypeTemplate other = (TypeTemplate) that;
         return (this.getId() == null ? other.getId() == null : this.getId().equals(other.getId()))
-                && (this.getName() == null ? other.getName() == null : this.getName().equals(other.getName()))
-                && (this.getSpecIds() == null ? other.getSpecIds() == null : this.getSpecIds().equals(other.getSpecIds()))
-                && (this.getBrandIds() == null ? other.getBrandIds() == null : this.getBrandIds().equals(other.getBrandIds()))
-                && (this.getCustomAttributeItems() == null ? other.getCustomAttributeItems() == null : this.getCustomAttributeItems().equals(other.getCustomAttributeItems()))
-                && (this.getAuditStatus() == null ? other.getAuditStatus() == null : this.getAuditStatus().equals(other.getAuditStatus()));
+            && (this.getName() == null ? other.getName() == null : this.getName().equals(other.getName()))
+            && (this.getSpecIds() == null ? other.getSpecIds() == null : this.getSpecIds().equals(other.getSpecIds()))
+            && (this.getBrandIds() == null ? other.getBrandIds() == null : this.getBrandIds().equals(other.getBrandIds()))
+            && (this.getCustomAttributeItems() == null ? other.getCustomAttributeItems() == null : this.getCustomAttributeItems().equals(other.getCustomAttributeItems()))
+            && (this.getAuditStatus() == null ? other.getAuditStatus() == null : this.getAuditStatus().equals(other.getAuditStatus()));
     }
 
     @Override

@@ -32,7 +32,7 @@ app.service("brandService",function($http){
 		return $http.get("../brand/selectOptionList.do");
 	}
 
-    this.updateStatus = function(ids,brandStatus){
-        return $http.get('../brand/updateStatus.do?ids='+ids+"&brandStatus="+brandStatus);
+    this.updateStatus = function(ids,auditStatus){
+        return $http.get('../brand/updateStatus.do?ids='+ids+"&auditStatus="+auditStatus);
     }
 });

@@ -23,10 +23,7 @@ public class ItemCat implements Serializable {
      */
     private Long typeId;
 
-    /**
-     * 审核状态
-     */
-    private String auditStatus;
+    private Integer auditStatus;
 
     private static final long serialVersionUID = 1L;
 
@@ -62,12 +59,12 @@ public class ItemCat implements Serializable {
         this.typeId = typeId;
     }
 
-    public String getAuditStatus() {
+    public Integer getAuditStatus() {
         return auditStatus;
     }
 
-    public void setAuditStatus(String auditStatus) {
-        this.auditStatus = auditStatus == null ? null : auditStatus.trim();
+    public void setAuditStatus(Integer auditStatus) {
+        this.auditStatus = auditStatus;
     }
 
     @Override
@@ -99,10 +96,10 @@ public class ItemCat implements Serializable {
         }
         ItemCat other = (ItemCat) that;
         return (this.getId() == null ? other.getId() == null : this.getId().equals(other.getId()))
-                && (this.getParentId() == null ? other.getParentId() == null : this.getParentId().equals(other.getParentId()))
-                && (this.getName() == null ? other.getName() == null : this.getName().equals(other.getName()))
-                && (this.getTypeId() == null ? other.getTypeId() == null : this.getTypeId().equals(other.getTypeId()))
-                && (this.getAuditStatus() == null ? other.getAuditStatus() == null : this.getAuditStatus().equals(other.getAuditStatus()));
+            && (this.getParentId() == null ? other.getParentId() == null : this.getParentId().equals(other.getParentId()))
+            && (this.getName() == null ? other.getName() == null : this.getName().equals(other.getName()))
+            && (this.getTypeId() == null ? other.getTypeId() == null : this.getTypeId().equals(other.getTypeId()))
+            && (this.getAuditStatus() == null ? other.getAuditStatus() == null : this.getAuditStatus().equals(other.getAuditStatus()));
     }
 
     @Override

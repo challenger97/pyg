@@ -3,6 +3,8 @@ package cn.itcast.core.service;
 import cn.itcast.core.dao.specification.SpecificationOptionDao;
 import cn.itcast.core.dao.template.TypeTemplateDao;
 import cn.itcast.core.pojo.entity.PageResult;
+import cn.itcast.core.pojo.good.Brand;
+import cn.itcast.core.pojo.specification.Specification;
 import cn.itcast.core.pojo.specification.SpecificationOption;
 import cn.itcast.core.pojo.specification.SpecificationOptionQuery;
 import cn.itcast.core.pojo.template.TypeTemplate;
@@ -12,6 +14,7 @@ import com.alibaba.dubbo.config.annotation.Service;
 import com.alibaba.fastjson.JSON;
 import com.github.pagehelper.Page;
 import com.github.pagehelper.PageHelper;
+import com.sun.org.apache.bcel.internal.generic.NEW;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.transaction.annotation.Transactional;
@@ -32,6 +35,17 @@ public class TemplateServiceImpl implements TemplateService {
     @Autowired
     private RedisTemplate redisTemplate;
 
+
+    @Override
+    public void updateStatus(Long id, Integer auditStatus) {
+        TypeTemplate typeTemplate = new TypeTemplate();
+        typeTemplate.setAuditStatus(auditStatus);
+        TypeTemplateQuery query = new TypeTemplateQuery();
+        TypeTemplateQuery.Criteria criteria = query.createCriteria();
+        criteria.andIdEqualTo(id);
+        templateDao.updateByExampleSelective(typeTemplate,query);
+    }
+
     @Override
     public PageResult findPage(TypeTemplate template, Integer page, Integer rows) {
         /**
@@ -44,7 +58,6 @@ public class TemplateServiceImpl implements TemplateService {
             //将json转换成集合
             List<Map> brandList = JSON.parseArray(brandIdsJsonStr, Map.class);
             redisTemplate.boundHashOps(Constants.BRAND_LIST_REDIS).put(typeTemplate.getId(), brandList);
-
             //模板id作为key, 规格集合作为value缓存入redis中
             List<Map> specList = findBySpecList(typeTemplate.getId());
             redisTemplate.boundHashOps(Constants.SPEC_LIST_REDIS).put(typeTemplate.getId(), specList);
@@ -68,7 +81,6 @@ public class TemplateServiceImpl implements TemplateService {
 
     @Override
     public void add(TypeTemplate template) {
-        template.setAuditStatus("0");
         templateDao.insertSelective(template);
     }
 
@@ -117,8 +129,8 @@ public class TemplateServiceImpl implements TemplateService {
 
             }
         }
-
-
         return maps;
     }
+
+
 }

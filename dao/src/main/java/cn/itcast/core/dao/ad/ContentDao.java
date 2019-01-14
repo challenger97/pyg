@@ -3,8 +3,6 @@ package cn.itcast.core.dao.ad;
 import cn.itcast.core.pojo.ad.Content;
 import cn.itcast.core.pojo.ad.ContentQuery;
 import java.util.List;
-import java.util.Map;
-
 import org.apache.ibatis.annotations.Param;
 
 public interface ContentDao {
@@ -29,6 +27,4 @@ public interface ContentDao {
     int updateByPrimaryKeySelective(Content record);
 
     int updateByPrimaryKey(Content record);
-
-    List<Map> selectFloorContentName(Long id);
 }
